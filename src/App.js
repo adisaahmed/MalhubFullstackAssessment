@@ -1,13 +1,21 @@
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import "./css/bootstrap.css";
+import "./css/easy-responsive-tabs.css";
+import "./css/flexslider.css";
+import "./css/font-awesome.css";
+import "./css/jquery-ui.css";
+import "./css/style.css";
+import "./css/team.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     <h1>
-      I think you re doing it right
-     </h1>
-    </div>
+    <>
+      <div>
+        <Navbar />
+      </div>
+    </>
   );
-}
+};
 
 export default App;
