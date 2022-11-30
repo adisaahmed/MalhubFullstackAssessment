@@ -1,19 +1,34 @@
-import "./App.css";
+import React from "react";
 import Navbar from "./components/Navbar";
-import "./css/bootstrap.css";
-import "./css/easy-responsive-tabs.css";
-import "./css/flexslider.css";
-import "./css/font-awesome.css";
-import "./css/jquery-ui.css";
 import "./css/style.css";
-import "./css/team.css";
+import ErrorBoundary from "./components/ErrorBoundary";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import LandingPage from "./components/LandingPage";
+import { Footer } from "./components/LandingPageContent";
+import GlobalStore from "./components/GlobalStore";
 
 const App = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      <Router>
+        
+          <GlobalStore>
+            <ErrorBoundary>
+              <Navbar />
+            </ErrorBoundary>
+
+            <ErrorBoundary>
+            <Routes>
+              <Route path="/" exact element={<LandingPage />} />
+              </Routes>
+            </ErrorBoundary>
+
+            <ErrorBoundary>
+              <Footer />
+            </ErrorBoundary>
+          </GlobalStore>
+        
+      </Router>
     </>
   );
 };
