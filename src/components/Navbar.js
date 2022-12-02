@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import top1 from "../images/top1.jpg";
+import top2 from "../images/top2.jpg";
+import log_pic from "../images/log_pic.jpg";
 
 const Navbar = () => {
   return (
@@ -153,7 +156,7 @@ const Navbar = () => {
                         <div className="agile_inner_drop_nav_info">
                           <div className="col-sm-6 multi-gd-img1 multi-gd-text ">
                             <Link to="">
-                              <img src="images/top2.jpg" alt=" " />
+                              <img src={top2} alt=" " />
                             </Link>
                           </div>
                           <div className="col-sm-3 multi-gd-img">
@@ -275,14 +278,14 @@ const Navbar = () => {
                           </div>
                           <div className="col-sm-6 multi-gd-img multi-gd-text ">
                             <Link to="">
-                              <img src="images/top1.jpg" alt=" " />
+                              <img src={top1} alt=" " />
                             </Link>
                           </div>
                           <div className="clearfix"></div>
                         </div>
                       </ul>
                     </li>
-                    
+
                     <li className="menu__item">
                       <Link className="menu__a" to="">
                         Contact
@@ -390,7 +393,7 @@ const Navbar = () => {
                 </p>
               </div>
               <div class="col-md-4 modal_body_right modal_body_right1">
-                <img src="images/log_pic.jpg" alt=" " />
+                <img src={log_pic} alt=" " />
               </div>
               <div class="clearfix"></div>
             </div>
@@ -488,7 +491,7 @@ const Navbar = () => {
                 </p>
               </div>
               <div class="col-md-4 modal_body_right modal_body_right1">
-                <img src="images/log_pic.jpg" alt=" " />
+                <img src={log_pic} alt=" " />
               </div>
               <div class="clearfix"></div>
             </div>
