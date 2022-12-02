@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,22 +9,22 @@ const Navbar = () => {
           <ul>
             <li>
               {" "}
-              <a href="#" data-toggle="modal" data-target="#myModal">
+              <Link to="#" data-toggle="modal" data-target="#myModal">
                 <i class="fa fa-unlock-alt" aria-hidden="true"></i> Sign In{" "}
-              </a>
+              </Link>
             </li>
             <li>
               {" "}
-              <a href="#" data-toggle="modal" data-target="#myModal2">
+              <Link to="#" data-toggle="modal" data-target="#myModal2">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Sign Up{" "}
-              </a>
+              </Link>
             </li>
             <li>
               <i class="fa fa-phone" aria-hidden="true"></i> Call : 01234567898
             </li>
             <li>
               <i class="fa fa-envelope-o" aria-hidden="true"></i>{" "}
-              <a href="mailto:info@example.com">info@example.com</a>
+              <Link to="mailto:info@example.com">info@example.com</Link>
             </li>
           </ul>
         </div>
@@ -45,57 +46,57 @@ const Navbar = () => {
           </div>
           <div class="col-md-4 logo_agile">
             <h1>
-              <a href="index.html">
+              <Link to="index.html">
                 <span>A</span>mco Shoppy{" "}
                 <i
                   class="fa fa-shopping-bag top_logo_agile_bag"
                   aria-hidden="true"
                 ></i>
-              </a>
+              </Link>
             </h1>
           </div>
           <div class="col-md-4 agileits-social top_content">
             <ul class="social-nav model-3d-0 footer-social w3_agile_social">
               <li class="share">Share On : </li>
               <li>
-                <a href="#" class="facebook">
+                <Link to="#" class="facebook">
                   <div class="front">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </div>
                   <div class="back">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="twitter">
+                <Link to="#" class="twitter">
                   <div class="front">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                   </div>
                   <div class="back">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="instagram">
+                <Link to="#" class="instagram">
                   <div class="front">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                   </div>
                   <div class="back">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="pinterest">
+                <Link to="#" class="pinterest">
                   <div class="front">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                   </div>
                   <div class="back">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -128,18 +129,18 @@ const Navbar = () => {
                 >
                   <ul className="nav navbar-nav menu__list">
                     <li className="active menu__item menu__item--current">
-                      <a className="menu__a" href="">
+                      <Link className="menu__a" to="/">
                         Home <span className="sr-only">(current)</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className=" menu__item">
-                      <a className="menu__a" href="">
+                      <Link className="menu__a" to="/about">
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li className="dropdown menu__item">
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         className="dropdown-toggle menu__a"
                         data-toggle="dropdown"
                         role="button"
@@ -147,61 +148,61 @@ const Navbar = () => {
                         aria-expanded="false"
                       >
                         Men's wear <span className="caret"></span>
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu multi-column columns-3">
                         <div className="agile_inner_drop_nav_info">
                           <div className="col-sm-6 multi-gd-img1 multi-gd-text ">
-                            <a href="">
+                            <Link to="">
                               <img src="images/top2.jpg" alt=" " />
-                            </a>
+                            </Link>
                           </div>
                           <div className="col-sm-3 multi-gd-img">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <a href="">Clothing</a>
+                                <Link to="">Clothing</Link>
                               </li>
                               <li>
-                                <a href="">Wallets</a>
+                                <Link to="">Wallets</Link>
                               </li>
                               <li>
-                                <a href="">Footwear</a>
+                                <Link to="">Footwear</Link>
                               </li>
                               <li>
-                                <a href="">Watches</a>
+                                <Link to="">Watches</Link>
                               </li>
                               <li>
-                                <a href="">Accessories</a>
+                                <Link to="">Accessories</Link>
                               </li>
                               <li>
-                                <a href="">Bags</a>
+                                <Link to="">Bags</Link>
                               </li>
                               <li>
-                                <a href="">Caps & Hats</a>
+                                <Link to="">Caps & Hats</Link>
                               </li>
                             </ul>
                           </div>
                           <div className="col-sm-3 multi-gd-img">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <a href="">Jewellery</a>
+                                <Link to="">Jewellery</Link>
                               </li>
                               <li>
-                                <a href="">Sunglasses</a>
+                                <Link to="">Sunglasses</Link>
                               </li>
                               <li>
-                                <a href="">Perfumes</a>
+                                <Link to="">Perfumes</Link>
                               </li>
                               <li>
-                                <a href="">Beauty</a>
+                                <Link to="">Beauty</Link>
                               </li>
                               <li>
-                                <a href="">Shirts</a>
+                                <Link to="">Shirts</Link>
                               </li>
                               <li>
-                                <a href="">Sunglasses</a>
+                                <Link to="">Sunglasses</Link>
                               </li>
                               <li>
-                                <a href="">Swimwear</a>
+                                <Link to="">Swimwear</Link>
                               </li>
                             </ul>
                           </div>
@@ -210,8 +211,8 @@ const Navbar = () => {
                       </ul>
                     </li>
                     <li className="dropdown menu__item">
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         className="dropdown-toggle menu__a"
                         data-toggle="dropdown"
                         role="button"
@@ -219,89 +220,73 @@ const Navbar = () => {
                         aria-expanded="false"
                       >
                         Women's wear <span className="caret"></span>
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu multi-column columns-3">
                         <div className="agile_inner_drop_nav_info">
                           <div className="col-sm-3 multi-gd-img">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <a href="">Clothing</a>
+                                <Link to="">Clothing</Link>
                               </li>
                               <li>
-                                <a href="">Wallets</a>
+                                <Link to="">Wallets</Link>
                               </li>
                               <li>
-                                <a href="">Footwear</a>
+                                <Link to="">Footwear</Link>
                               </li>
                               <li>
-                                <a href="">Watches</a>
+                                <Link to="">Watches</Link>
                               </li>
                               <li>
-                                <a href="">Accessories</a>
+                                <Link to="">Accessories</Link>
                               </li>
                               <li>
-                                <a href="">Bags</a>
+                                <Link to="">Bags</Link>
                               </li>
                               <li>
-                                <a href="">Caps & Hats</a>
+                                <Link to="">Caps & Hats</Link>
                               </li>
                             </ul>
                           </div>
                           <div className="col-sm-3 multi-gd-img">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <a href="">Jewellery</a>
+                                <Link to="">Jewellery</Link>
                               </li>
                               <li>
-                                <a href="">Sunglasses</a>
+                                <Link to="">Sunglasses</Link>
                               </li>
                               <li>
-                                <a href="">Perfumes</a>
+                                <Link to="">Perfumes</Link>
                               </li>
                               <li>
-                                <a href="">Beauty</a>
+                                <Link to="">Beauty</Link>
                               </li>
                               <li>
-                                <a href="">Shirts</a>
+                                <Link to="">Shirts</Link>
                               </li>
                               <li>
-                                <a href="">Sunglasses</a>
+                                <Link to="">Sunglasses</Link>
                               </li>
                               <li>
-                                <a href="">Swimwear</a>
+                                <Link to="">Swimwear</Link>
                               </li>
                             </ul>
                           </div>
                           <div className="col-sm-6 multi-gd-img multi-gd-text ">
-                            <a href="">
+                            <Link to="">
                               <img src="images/top1.jpg" alt=" " />
-                            </a>
+                            </Link>
                           </div>
                           <div className="clearfix"></div>
                         </div>
                       </ul>
                     </li>
-                    <li className="menu__item dropdown">
-                      <a
-                        href="#"
-                        className="dropdown-toggle menu__a"
-                        data-toggle="dropdown"
-                      >
-                        Short Codes <b className="caret"></b>
-                      </a>
-                      <ul className="dropdown-menu agile_short_dropdown">
-                        <li>
-                          <a href="">Web Icons</a>
-                        </li>
-                        <li>
-                          <a href="">Typography</a>
-                        </li>
-                      </ul>
-                    </li>
+                    
                     <li className="menu__item">
-                      <a className="menu__a" href="">
+                      <Link className="menu__a" to="">
                         Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -356,52 +341,52 @@ const Navbar = () => {
                 </form>
                 <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
                   <li>
-                    <a href="#" class="facebook">
+                    <Link to="#" class="facebook">
                       <div class="front">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </div>
                       <div class="back">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
+                    <Link to="#" class="twitter">
                       <div class="front">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                       </div>
                       <div class="back">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="instagram">
+                    <Link to="#" class="instagram">
                       <div class="front">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                       </div>
                       <div class="back">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="pinterest">
+                    <Link to="#" class="pinterest">
                       <div class="front">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </div>
                       <div class="back">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div class="clearfix"></div>
                 <p>
-                  <a href="#" data-toggle="modal" data-target="#myModal2">
+                  <Link to="#" data-toggle="modal" data-target="#myModal2">
                     {" "}
                     Don't have an account?
-                  </a>
+                  </Link>
                 </p>
               </div>
               <div class="col-md-4 modal_body_right modal_body_right1">
@@ -455,49 +440,51 @@ const Navbar = () => {
                 </form>
                 <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
                   <li>
-                    <a href="#" class="facebook">
+                    <Link to="#" class="facebook">
                       <div class="front">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </div>
                       <div class="back">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
+                    <Link to="#" class="twitter">
                       <div class="front">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                       </div>
                       <div class="back">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="instagram">
+                    <Link to="#" class="instagram">
                       <div class="front">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                       </div>
                       <div class="back">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" class="pinterest">
+                    <Link to="#" class="pinterest">
                       <div class="front">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </div>
                       <div class="back">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div class="clearfix"></div>
                 <p>
-                  <a href="#">By clicking register, I agree to your terms</a>
+                  <Link to="#">
+                    By clicking register, I agree to your terms
+                  </Link>
                 </p>
               </div>
               <div class="col-md-4 modal_body_right modal_body_right1">
