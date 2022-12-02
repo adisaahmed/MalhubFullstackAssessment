@@ -279,7 +279,11 @@ export function Banner() {
   return (
     <div id="myCarousel" className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-href="0" className="active"></li>
+        <li
+          data-target="#myCarousel"
+          data-slide-href="0"
+          className="active"
+        ></li>
         <li data-target="#myCarousel" data-slide-href="1" className=""></li>
         <li data-target="#myCarousel" data-slide-href="2" className=""></li>
         <li data-target="#myCarousel" data-slide-href="3" className=""></li>
@@ -1835,7 +1839,11 @@ export function NewArrivals() {
                 <div className="men-pro-item simpleCart_shelfItem">
                   <div className="men-thumb-item">
                     <img src={b7} alt="" className="pro-image-front" />
-                    <img src="images/b7.jpg" alt="" className="pro-image-back" />
+                    <img
+                      src="images/b7.jpg"
+                      alt=""
+                      className="pro-image-back"
+                    />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
                         <a href="" className="a-product-add-cart">
@@ -2592,8 +2600,7 @@ export function Footer() {
                   <div className="w3-address-right">
                     <h6>Email Address</h6>
                     <p>
-                      Email :
-                      <a href=""> mail@example.com</a>
+                      Email :<a href=""> mail@example.com</a>
                     </p>
                   </div>
                   <div className="clearfix"> </div>
@@ -2617,47 +2624,47 @@ export function Footer() {
               <ul>
                 <li>
                   <a href="">
-                    <img src={ t1 } alt=" " className="img-responsive" />
+                    <img src={t1} alt=" " className="img-responsive" />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <img src={ t2 } alt=" " className="img-responsive" />
+                    <img src={t2} alt=" " className="img-responsive" />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <img src={ t3 } alt=" " className="img-responsive" />
+                    <img src={t3} alt=" " className="img-responsive" />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <img src={ t4 } alt=" " className="img-responsive" />
+                    <img src={t4} alt=" " className="img-responsive" />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <img src={ t1 } alt=" " className="img-responsive" />
+                    <img src={t1} alt=" " className="img-responsive" />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <img src={ t2 } alt=" " className="img-responsive" />
+                    <img src={t2} alt=" " className="img-responsive" />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <img src={ t3 } alt=" " className="img-responsive" />
+                    <img src={t3} alt=" " className="img-responsive" />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <img src={ t2 } alt=" " className="img-responsive" />
+                    <img src={t2} alt=" " className="img-responsive" />
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <img src={ t4 } alt=" " className="img-responsive" />
+                    <img src={t4} alt=" " className="img-responsive" />
                   </a>
                 </li>
               </ul>
@@ -2685,8 +2692,8 @@ export function Footer() {
           <div className="clearfix"></div>
         </div>
         <p className="copy-right">
-          &copy 2017 Elite shoppy. All rights reserved | Design by{" "}
-          <a href="">W3layouts</a>
+          &#169; 2022 Amco shoppy. All rights reserved | Design by{" "}
+          <a href="">Ahmed Adisa</a>
         </p>
       </div>
     </div>
