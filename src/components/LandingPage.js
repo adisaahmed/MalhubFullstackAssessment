@@ -11,7 +11,6 @@ import {
 const LandingPage = () => {
   return (
     <>
-      <BannerTop />
       <Banner />
       <BannerBottom />
       <IndexDiscount />

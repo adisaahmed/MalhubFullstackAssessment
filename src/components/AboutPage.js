@@ -1,10 +1,16 @@
-import React from "react";
-
+import { AboutUs, Banner, Schedule, Team } from "./AboutPageContent";
+import { Offers } from "./LandingPageContent";
 
 const AboutPage = () => {
-    return (
-        <div></div>
-    )
-}
+  return (
+    <div>
+      <Banner />
+      <AboutUs />
+      <Team />
+      <Schedule />
+      <Offers />
+    </div>
+  );
+};
 
-export default AboutPage
+export default AboutPage;

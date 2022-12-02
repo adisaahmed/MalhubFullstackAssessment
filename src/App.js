@@ -6,28 +6,33 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import { Footer } from "./components/LandingPageContent";
 import GlobalStore from "./components/GlobalStore";
+import AboutPage from "./components/AboutPage";
 
 const App = () => {
   return (
     <>
       <Router>
-        
-          <GlobalStore>
-            <ErrorBoundary>
-              <Navbar />
-            </ErrorBoundary>
+        <GlobalStore>
+          <ErrorBoundary>
+            <Navbar />
+          </ErrorBoundary>
 
-            <ErrorBoundary>
+          <ErrorBoundary>
             <Routes>
               <Route path="/" exact element={<LandingPage />} />
-              </Routes>
-            </ErrorBoundary>
+            </Routes>
+          </ErrorBoundary>
 
-            <ErrorBoundary>
-              <Footer />
-            </ErrorBoundary>
-          </GlobalStore>
-        
+          <ErrorBoundary>
+            <Routes>
+              <Route path="/about" element={<AboutPage />} />
+            </Routes>
+          </ErrorBoundary>
+
+          <ErrorBoundary>
+            <Footer />
+          </ErrorBoundary>
+        </GlobalStore>
       </Router>
     </>
   );
