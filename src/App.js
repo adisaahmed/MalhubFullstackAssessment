@@ -7,6 +7,7 @@ import LandingPage from "./components/LandingPage";
 import { Footer } from "./components/LandingPageContent";
 import GlobalStore from "./components/GlobalStore";
 import AboutPage from "./components/AboutPage";
+import MenWears from "./components/MenWears";
 
 const App = () => {
   return (
@@ -26,6 +27,12 @@ const App = () => {
           <ErrorBoundary>
             <Routes>
               <Route path="/about" element={<AboutPage />} />
+            </Routes>
+          </ErrorBoundary>
+
+          <ErrorBoundary>
+            <Routes>
+              <Route path="/men" element={<MenWears />} />
             </Routes>
           </ErrorBoundary>
 

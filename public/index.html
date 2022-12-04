@@ -30,6 +30,27 @@
     <script type="text/javascript" src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/modernizr.custom.js"></script>
     <script src="./js/easy-responsive-tabs.js"></script>
+    <script src="./js/responsiveslides.min.js"></script>
+
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+       // Slideshow 4
+      $("#slider3").responsiveSlides({
+        auto: true,
+        pager: true,
+        nav: false,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+      $('.events').append("<li>before event fired.</li>");
+      },
+      after: function () {
+        $('.events').append("<li>after event fired.</li>");
+        }
+        });
+      });
+  </script>
 
     <script>
       $(document).ready(function () {

@@ -7,35 +7,35 @@ import log_pic from "../images/log_pic.jpg";
 const Navbar = () => {
   return (
     <>
-      <div class="header" id="home">
-        <div class="container">
+      <div className="header" id="home">
+        <div className="container">
           <ul>
             <li>
               {" "}
               <Link to="#" data-toggle="modal" data-target="#myModal">
-                <i class="fa fa-unlock-alt" aria-hidden="true"></i> Sign In{" "}
+                <i className="fa fa-unlock-alt" aria-hidden="true"></i> Sign In{" "}
               </Link>
             </li>
             <li>
               {" "}
               <Link to="#" data-toggle="modal" data-target="#myModal2">
-                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Sign Up{" "}
+                <i className="fa fa-pencil-square-o" aria-hidden="true"></i> Sign Up{" "}
               </Link>
             </li>
             <li>
-              <i class="fa fa-phone" aria-hidden="true"></i> Call : 01234567898
+              <i className="fa fa-phone" aria-hidden="true"></i> Call : 01234567898
             </li>
             <li>
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>{" "}
+              <i className="fa fa-envelope-o" aria-hidden="true"></i>{" "}
               <Link to="mailto:info@example.com">info@example.com</Link>
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="header-bot">
-        <div class="header-bot_inner_wthreeinfo_header_mid">
-          <div class="col-md-4 header-middle">
+      <div className="header-bot">
+        <div className="header-bot_inner_wthreeinfo_header_mid">
+          <div className="col-md-4 header-middle">
             <form>
               <input
                 type="search"
@@ -44,66 +44,66 @@ const Navbar = () => {
                 required=""
               />
               <input type="submit" value=" " />
-              <div class="clearfix"></div>
+              <div className="clearfix"></div>
             </form>
           </div>
-          <div class="col-md-4 logo_agile">
+          <div className="col-md-4 logo_agile">
             <h1>
               <Link to="index.html">
                 <span>A</span>mco Shoppy{" "}
                 <i
-                  class="fa fa-shopping-bag top_logo_agile_bag"
+                  className="fa fa-shopping-bag top_logo_agile_bag"
                   aria-hidden="true"
                 ></i>
               </Link>
             </h1>
           </div>
-          <div class="col-md-4 agileits-social top_content">
-            <ul class="social-nav model-3d-0 footer-social w3_agile_social">
-              <li class="share">Share On : </li>
+          <div className="col-md-4 agileits-social top_content">
+            <ul className="social-nav model-3d-0 footer-social w3_agile_social">
+              <li className="share">Share On : </li>
               <li>
-                <Link to="#" class="facebook">
-                  <div class="front">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                <Link to="#" className="facebook">
+                  <div className="front">
+                    <i className="fa fa-facebook" aria-hidden="true"></i>
                   </div>
-                  <div class="back">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <div className="back">
+                    <i className="fa fa-facebook" aria-hidden="true"></i>
                   </div>
                 </Link>
               </li>
               <li>
-                <Link to="#" class="twitter">
-                  <div class="front">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                <Link to="#" className="twitter">
+                  <div className="front">
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
                   </div>
-                  <div class="back">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </div>
-                </Link>
-              </li>
-              <li>
-                <Link to="#" class="instagram">
-                  <div class="front">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </div>
-                  <div class="back">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <div className="back">
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
                   </div>
                 </Link>
               </li>
               <li>
-                <Link to="#" class="pinterest">
-                  <div class="front">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <Link to="#" className="instagram">
+                  <div className="front">
+                    <i className="fa fa-instagram" aria-hidden="true"></i>
                   </div>
-                  <div class="back">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <div className="back">
+                    <i className="fa fa-instagram" aria-hidden="true"></i>
+                  </div>
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="pinterest">
+                  <div className="front">
+                    <i className="fa fa-linkedin" aria-hidden="true"></i>
+                  </div>
+                  <div className="back">
+                    <i className="fa fa-linkedin" aria-hidden="true"></i>
                   </div>
                 </Link>
               </li>
             </ul>
           </div>
-          <div class="clearfix"></div>
+          <div className="clearfix"></div>
         </div>
       </div>
 
@@ -162,50 +162,50 @@ const Navbar = () => {
                           <div className="col-sm-3 multi-gd-img">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <Link to="">Clothing</Link>
+                                <Link to="/men">Clothing</Link>
                               </li>
                               <li>
-                                <Link to="">Wallets</Link>
+                                <Link to="/men">Wallets</Link>
                               </li>
                               <li>
-                                <Link to="">Footwear</Link>
+                                <Link to="/men">Footwear</Link>
                               </li>
                               <li>
-                                <Link to="">Watches</Link>
+                                <Link to="/men">Watches</Link>
                               </li>
                               <li>
-                                <Link to="">Accessories</Link>
+                                <Link to="/men">Accessories</Link>
                               </li>
                               <li>
-                                <Link to="">Bags</Link>
+                                <Link to="/men">Bags</Link>
                               </li>
                               <li>
-                                <Link to="">Caps & Hats</Link>
+                                <Link to="/men">Caps & Hats</Link>
                               </li>
                             </ul>
                           </div>
                           <div className="col-sm-3 multi-gd-img">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <Link to="">Jewellery</Link>
+                                <Link to="/men">Jewellery</Link>
                               </li>
                               <li>
-                                <Link to="">Sunglasses</Link>
+                                <Link to="/men">Sunglasses</Link>
                               </li>
                               <li>
-                                <Link to="">Perfumes</Link>
+                                <Link to="/men">Perfumes</Link>
                               </li>
                               <li>
-                                <Link to="">Beauty</Link>
+                                <Link to="/men">Beauty</Link>
                               </li>
                               <li>
-                                <Link to="">Shirts</Link>
+                                <Link to="/men">Shirts</Link>
                               </li>
                               <li>
-                                <Link to="">Sunglasses</Link>
+                                <Link to="/men">Sunglasses</Link>
                               </li>
                               <li>
-                                <Link to="">Swimwear</Link>
+                                <Link to="/men">Swimwear</Link>
                               </li>
                             </ul>
                           </div>
@@ -316,75 +316,75 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">
+      <div className="modal fade" id="myModal" tabIndex="-1" role="dialog">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <button type="button" className="close" data-dismiss="modal">
                 &times;
               </button>
             </div>
-            <div class="modal-body modal-body-sub_agile">
-              <div class="col-md-8 modal_body_left modal_body_left1">
-                <h3 class="agileinfo_sign">
+            <div className="modal-body modal-body-sub_agile">
+              <div className="col-md-8 modal_body_left modal_body_left1">
+                <h3 className="agileinfo_sign">
                   Sign In <span>Now</span>
                 </h3>
                 <form action="#" method="post">
-                  <div class="styled-input agile-styled-input-top">
+                  <div className="styled-input agile-styled-input-top">
                     <input type="text" name="Name" required="" />
                     <label>Name</label>
                     <span></span>
                   </div>
-                  <div class="styled-input">
+                  <div className="styled-input">
                     <input type="email" name="Email" required="" />
                     <label>Email</label>
                     <span></span>
                   </div>
                   <input type="submit" value="Sign In" />
                 </form>
-                <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                <ul className="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
                   <li>
-                    <Link to="#" class="facebook">
-                      <div class="front">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <Link to="#" className="facebook">
+                      <div className="front">
+                        <i className="fa fa-facebook" aria-hidden="true"></i>
                       </div>
-                      <div class="back">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <div className="back">
+                        <i className="fa fa-facebook" aria-hidden="true"></i>
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" class="twitter">
-                      <div class="front">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <Link to="#" className="twitter">
+                      <div className="front">
+                        <i className="fa fa-twitter" aria-hidden="true"></i>
                       </div>
-                      <div class="back">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                      </div>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#" class="instagram">
-                      <div class="front">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </div>
-                      <div class="back">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      <div className="back">
+                        <i className="fa fa-twitter" aria-hidden="true"></i>
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" class="pinterest">
-                      <div class="front">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <Link to="#" className="instagram">
+                      <div className="front">
+                        <i className="fa fa-instagram" aria-hidden="true"></i>
                       </div>
-                      <div class="back">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      <div className="back">
+                        <i className="fa fa-instagram" aria-hidden="true"></i>
+                      </div>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="#" className="pinterest">
+                      <div className="front">
+                        <i className="fa fa-linkedin" aria-hidden="true"></i>
+                      </div>
+                      <div className="back">
+                        <i className="fa fa-linkedin" aria-hidden="true"></i>
                       </div>
                     </Link>
                   </li>
                 </ul>
-                <div class="clearfix"></div>
+                <div className="clearfix"></div>
                 <p>
                   <Link to="#" data-toggle="modal" data-target="#myModal2">
                     {" "}
@@ -392,45 +392,45 @@ const Navbar = () => {
                   </Link>
                 </p>
               </div>
-              <div class="col-md-4 modal_body_right modal_body_right1">
+              <div className="col-md-4 modal_body_right modal_body_right1">
                 <img src={log_pic} alt=" " />
               </div>
-              <div class="clearfix"></div>
+              <div className="clearfix"></div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">
+      <div className="modal fade" id="myModal2" tabIndex="-1" role="dialog">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <button type="button" className="close" data-dismiss="modal">
                 &times;
               </button>
             </div>
-            <div class="modal-body modal-body-sub_agile">
-              <div class="col-md-8 modal_body_left modal_body_left1">
-                <h3 class="agileinfo_sign">
+            <div className="modal-body modal-body-sub_agile">
+              <div className="col-md-8 modal_body_left modal_body_left1">
+                <h3 className="agileinfo_sign">
                   Sign Up <span>Now</span>
                 </h3>
                 <form action="#" method="post">
-                  <div class="styled-input agile-styled-input-top">
+                  <div className="styled-input agile-styled-input-top">
                     <input type="text" name="Name" required="" />
                     <label>Name</label>
                     <span></span>
                   </div>
-                  <div class="styled-input">
+                  <div className="styled-input">
                     <input type="email" name="Email" required="" />
                     <label>Email</label>
                     <span></span>
                   </div>
-                  <div class="styled-input">
+                  <div className="styled-input">
                     <input type="password" name="password" required="" />
                     <label>Password</label>
                     <span></span>
                   </div>
-                  <div class="styled-input">
+                  <div className="styled-input">
                     <input
                       type="password"
                       name="Confirm Password"
@@ -441,59 +441,59 @@ const Navbar = () => {
                   </div>
                   <input type="submit" value="Sign Up" />
                 </form>
-                <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                <ul className="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
                   <li>
-                    <Link to="#" class="facebook">
-                      <div class="front">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <Link to="#" className="facebook">
+                      <div className="front">
+                        <i className="fa fa-facebook" aria-hidden="true"></i>
                       </div>
-                      <div class="back">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <div className="back">
+                        <i className="fa fa-facebook" aria-hidden="true"></i>
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" class="twitter">
-                      <div class="front">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <Link to="#" className="twitter">
+                      <div className="front">
+                        <i className="fa fa-twitter" aria-hidden="true"></i>
                       </div>
-                      <div class="back">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                      </div>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#" class="instagram">
-                      <div class="front">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </div>
-                      <div class="back">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      <div className="back">
+                        <i className="fa fa-twitter" aria-hidden="true"></i>
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" class="pinterest">
-                      <div class="front">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <Link to="#" className="instagram">
+                      <div className="front">
+                        <i className="fa fa-instagram" aria-hidden="true"></i>
                       </div>
-                      <div class="back">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      <div className="back">
+                        <i className="fa fa-instagram" aria-hidden="true"></i>
+                      </div>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="#" className="pinterest">
+                      <div className="front">
+                        <i className="fa fa-linkedin" aria-hidden="true"></i>
+                      </div>
+                      <div className="back">
+                        <i className="fa fa-linkedin" aria-hidden="true"></i>
                       </div>
                     </Link>
                   </li>
                 </ul>
-                <div class="clearfix"></div>
+                <div className="clearfix"></div>
                 <p>
                   <Link to="#">
                     By clicking register, I agree to your terms
                   </Link>
                 </p>
               </div>
-              <div class="col-md-4 modal_body_right modal_body_right1">
+              <div className="col-md-4 modal_body_right modal_body_right1">
                 <img src={log_pic} alt=" " />
               </div>
-              <div class="clearfix"></div>
+              <div className="clearfix"></div>
             </div>
           </div>
         </div>
