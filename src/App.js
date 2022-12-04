@@ -8,6 +8,7 @@ import { Footer } from "./components/LandingPageContent";
 import GlobalStore from "./components/GlobalStore";
 import AboutPage from "./components/AboutPage";
 import MenWears from "./components/MenWears";
+import WomenWears from "./components/WomenWears";
 
 const App = () => {
   return (
@@ -33,6 +34,12 @@ const App = () => {
           <ErrorBoundary>
             <Routes>
               <Route path="/men" element={<MenWears />} />
+            </Routes>
+          </ErrorBoundary>
+
+          <ErrorBoundary>
+            <Routes>
+              <Route path="/women" element={<WomenWears />} />
             </Routes>
           </ErrorBoundary>
 

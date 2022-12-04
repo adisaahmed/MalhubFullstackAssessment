@@ -229,50 +229,50 @@ const Navbar = () => {
                           <div className="col-sm-3 multi-gd-img">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <Link to="">Clothing</Link>
+                                <Link to="/women">Clothing</Link>
                               </li>
                               <li>
-                                <Link to="">Wallets</Link>
+                                <Link to="/women">Wallets</Link>
                               </li>
                               <li>
-                                <Link to="">Footwear</Link>
+                                <Link to="/women">Footwear</Link>
                               </li>
                               <li>
-                                <Link to="">Watches</Link>
+                                <Link to="/women">Watches</Link>
                               </li>
                               <li>
-                                <Link to="">Accessories</Link>
+                                <Link to="/women">Accessories</Link>
                               </li>
                               <li>
-                                <Link to="">Bags</Link>
+                                <Link to="/women">Bags</Link>
                               </li>
                               <li>
-                                <Link to="">Caps & Hats</Link>
+                                <Link to="/women">Caps & Hats</Link>
                               </li>
                             </ul>
                           </div>
                           <div className="col-sm-3 multi-gd-img">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <Link to="">Jewellery</Link>
+                                <Link to="/women">Jewellery</Link>
                               </li>
                               <li>
-                                <Link to="">Sunglasses</Link>
+                                <Link to="/women">Sunglasses</Link>
                               </li>
                               <li>
-                                <Link to="">Perfumes</Link>
+                                <Link to="/women">Perfumes</Link>
                               </li>
                               <li>
-                                <Link to="">Beauty</Link>
+                                <Link to="/women">Beauty</Link>
                               </li>
                               <li>
-                                <Link to="">Shirts</Link>
+                                <Link to="/women">Shirts</Link>
                               </li>
                               <li>
-                                <Link to="">Sunglasses</Link>
+                                <Link to="/women">Sunglasses</Link>
                               </li>
                               <li>
-                                <Link to="">Swimwear</Link>
+                                <Link to="/women">Swimwear</Link>
                               </li>
                             </ul>
                           </div>

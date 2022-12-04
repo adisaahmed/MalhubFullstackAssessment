@@ -1,25 +1,27 @@
 import React from "react";
-import banner2 from "../images/banner2.jpg";
-import banner5 from "../images/banner5.jpg";
-import bb2 from "../images/bb2.jpg";
-import m8 from "../images/m8.jpg";
-import m7 from "../images/m7.jpg";
-import s1 from "../images/s1.jpg";
-import m1 from "../images/m1.jpg";
-import m2 from "../images/m2.jpg";
-import m3 from "../images/m3.jpg";
-import m4 from "../images/m4.jpg";
-import m5 from "../images/m5.jpg";
-import m6 from "../images/m6.jpg";
+import banner4 from "../images/banner4.jpg";
+import banner3 from "../images/banner3.jpg";
+import banner1 from "../images/banner1.jpg";
+import bb1 from "../images/bb1.jpg";
+import w4 from "../images/w4.jpg";
+import b7 from "../images/b7.jpg";
+import s6 from "../images/s6.jpg";
+import w1 from "../images/w1.jpg";
+import w2 from "../images/w2.jpg";
+import w3 from "../images/w3.jpg";
+import w5 from "../images/w5.jpg";
+import w6 from "../images/w6.jpg";
+import w7 from "../images/w7.jpg";
+import w8 from "../images/w8.jpg";
 
-export function ClothingBanner() {
+export function Banner() {
   return (
     <>
       <div>
         <div className="page-head_agile_info_w3l">
           <div className="container">
             <h3>
-              Men's <span>Wear </span>
+              Women's <span>Wear </span>
             </h3>
             <div className="services-breadcrumb">
               <div className="agile_inner_breadcrumb">
@@ -28,7 +30,7 @@ export function ClothingBanner() {
                     <a href="index.html">Home</a>
                     <i>|</i>
                   </li>
-                  <li>Men's Wear</li>
+                  <li>Women's Wear</li>
                 </ul>
               </div>
             </div>
@@ -39,18 +41,18 @@ export function ClothingBanner() {
   );
 }
 
-export function ClothingBody() {
+export function BagBody() {
   return (
     <>
       <div>
-        <div className="banner-bootom-w3-agileits">
-          <div className="container">
-            <div className="col-md-4 products-left">
-              <div className="filter-price">
+        <div class="banner-bootom-w3-agileits">
+          <div class="container">
+            <div class="col-md-4 products-left">
+              <div class="filter-price">
                 <h3>
                   Filter By <span>Price</span>
                 </h3>
-                <ul className="dropdown-menu6">
+                <ul class="dropdown-menu6">
                   <li>
                     <div id="slider-range"></div>
                     <input
@@ -65,28 +67,21 @@ export function ClothingBody() {
                   </li>
                 </ul>
               </div>
-              <div className="css-treeview">
+              <div class="css-treeview">
                 <h4>Categories</h4>
-                <ul className="tree-list-pad">
+                <ul class="tree-list-pad">
                   <li>
-                    <input
-                      type="checkbox"
-                      defaultChecked="defaultChecked"
-                      id="item-0"
-                    />
-                    <label>
-                      <i
-                        className="fa fa-long-arrow-right"
-                        aria-hidden="true"
-                      ></i>{" "}
+                    <input type="checkbox" checked="checked" id="item-0" />
+                    <label for="item-0">
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>{" "}
                       Men's Wear
                     </label>
                     <ul>
                       <li>
                         <input type="checkbox" id="item-0-0" />
-                        <label>
+                        <label for="item-0-0">
                           <i
-                            className="fa fa-long-arrow-right"
+                            class="fa fa-long-arrow-right"
                             aria-hidden="true"
                           ></i>
                           Ethnic Wear
@@ -114,9 +109,9 @@ export function ClothingBody() {
                       </li>
                       <li>
                         <input type="checkbox" id="item-0-1" />
-                        <label>
+                        <label for="item-0-1">
                           <i
-                            className="fa fa-long-arrow-right"
+                            class="fa fa-long-arrow-right"
                             aria-hidden="true"
                           ></i>{" "}
                           Party Wear
@@ -144,9 +139,9 @@ export function ClothingBody() {
                       </li>
                       <li>
                         <input type="checkbox" id="item-0-2" />
-                        <label>
+                        <label for="item-0-2">
                           <i
-                            className="fa fa-long-arrow-right"
+                            class="fa fa-long-arrow-right"
                             aria-hidden="true"
                           ></i>{" "}
                           Casual Wear
@@ -174,30 +169,22 @@ export function ClothingBody() {
                       </li>
                     </ul>
                   </li>
-
                   <li>
-                    <input
-                      type="checkbox"
-                      id="item-1"
-                      defaultChecked="defaultChecked"
-                    />
-                    <label>
-                      <i
-                        className="fa fa-long-arrow-right"
-                        aria-hidden="true"
-                      ></i>{" "}
+                    <input type="checkbox" id="item-1" checked="checked" />
+                    <label for="item-1">
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>{" "}
                       Best Collections
                     </label>
                     <ul>
                       <li>
                         <input
                           type="checkbox"
-                          defaultChecked="defaultChecked"
+                          checked="checked"
                           id="item-1-0"
                         />
-                        <label>
+                        <label for="item-1-0">
                           <i
-                            className="fa fa-long-arrow-right"
+                            class="fa fa-long-arrow-right"
                             aria-hidden="true"
                           ></i>{" "}
                           New Arrivals
@@ -220,24 +207,17 @@ export function ClothingBody() {
                     </ul>
                   </li>
                   <li>
-                    <input
-                      type="checkbox"
-                      defaultChecked="defaultChecked"
-                      id="item-2"
-                    />
-                    <label>
-                      <i
-                        className="fa fa-long-arrow-right"
-                        aria-hidden="true"
-                      ></i>{" "}
+                    <input type="checkbox" checked="checked" id="item-2" />
+                    <label for="item-2">
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>{" "}
                       Best Offers
                     </label>
                     <ul>
                       <li>
                         <input type="checkbox" id="item-2-0" />
-                        <label>
+                        <label for="item-2-0">
                           <i
-                            className="fa fa-long-arrow-right"
+                            class="fa fa-long-arrow-right"
                             aria-hidden="true"
                           ></i>{" "}
                           Summer Discount Sales
@@ -259,9 +239,9 @@ export function ClothingBody() {
                       </li>
                       <li>
                         <input type="checkbox" id="item-2-1" />
-                        <label>
+                        <label for="item-2-1">
                           <i
-                            className="fa fa-long-arrow-right"
+                            class="fa fa-long-arrow-right"
                             aria-hidden="true"
                           ></i>{" "}
                           Exciting Offers
@@ -283,9 +263,9 @@ export function ClothingBody() {
                       </li>
                       <li>
                         <input type="checkbox" id="item-2-2" />
-                        <label>
+                        <label for="item-2-2">
                           <i
-                            className="fa fa-long-arrow-right"
+                            class="fa fa-long-arrow-right"
                             aria-hidden="true"
                           ></i>{" "}
                           Flat Discounts
@@ -309,23 +289,23 @@ export function ClothingBody() {
                   </li>
                 </ul>
               </div>
-              <div className="community-poll">
+              <div class="community-poll">
                 <h4>Community Poll</h4>
-                <div className="swit form">
+                <div class="swit form">
                   <form>
-                    <div className="check_box">
+                    <div class="check_box">
                       {" "}
-                      <div className="radio">
+                      <div class="radio">
                         {" "}
                         <label>
-                          <input type="radio" name="radio" defaultChecked="" />
+                          <input type="radio" name="radio" checked="" />
                           <i></i>More convenient for shipping and delivery
                         </label>{" "}
                       </div>
                     </div>
-                    <div className="check_box">
+                    <div class="check_box">
                       {" "}
-                      <div className="radio">
+                      <div class="radio">
                         {" "}
                         <label>
                           <input type="radio" name="radio" />
@@ -333,9 +313,9 @@ export function ClothingBody() {
                         </label>{" "}
                       </div>
                     </div>
-                    <div className="check_box">
+                    <div class="check_box">
                       {" "}
-                      <div className="radio">
+                      <div class="radio">
                         {" "}
                         <label>
                           <input type="radio" name="radio" />
@@ -343,9 +323,9 @@ export function ClothingBody() {
                         </label>{" "}
                       </div>
                     </div>
-                    <div className="check_box">
+                    <div class="check_box">
                       {" "}
-                      <div className="radio">
+                      <div class="radio">
                         {" "}
                         <label>
                           <input type="radio" name="radio" />
@@ -353,9 +333,9 @@ export function ClothingBody() {
                         </label>{" "}
                       </div>
                     </div>
-                    <div className="check_box">
+                    <div class="check_box">
                       {" "}
-                      <div className="radio">
+                      <div class="radio">
                         {" "}
                         <label>
                           <input type="radio" name="radio" />
@@ -363,9 +343,9 @@ export function ClothingBody() {
                         </label>{" "}
                       </div>
                     </div>
-                    <div className="check_box">
+                    <div class="check_box">
                       {" "}
-                      <div className="radio">
+                      <div class="radio">
                         {" "}
                         <label>
                           <input type="radio" name="radio" />
@@ -373,9 +353,9 @@ export function ClothingBody() {
                         </label>{" "}
                       </div>
                     </div>
-                    <div className="check_box">
+                    <div class="check_box">
                       {" "}
-                      <div className="radio">
+                      <div class="radio">
                         {" "}
                         <label>
                           <input type="radio" name="radio" />
@@ -383,9 +363,9 @@ export function ClothingBody() {
                         </label>{" "}
                       </div>
                     </div>
-                    <div className="check_box">
+                    <div class="check_box">
                       {" "}
-                      <div className="radio">
+                      <div class="radio">
                         {" "}
                         <label>
                           <input type="radio" name="radio" />
@@ -397,16 +377,20 @@ export function ClothingBody() {
                   </form>
                 </div>
               </div>
-              <div className="clearfix"></div>
+              <div class="clearfix"></div>
             </div>
-            <div className="col-md-8 products-right">
+            <div class="col-md-8 products-right">
               <h5>
                 Product <span>Compare(0)</span>
               </h5>
-              <div className="sort-grid">
-                <div className="sorting">
+              <div class="sort-grid">
+                <div class="sorting">
                   <h6>Sort By</h6>
-                  <select id="country1" className="frm-field required sect">
+                  <select
+                    id="country1"
+                    onchange="change_country(this.value)"
+                    class="frm-field required sect"
+                  >
                     <option value="null">Default</option>
                     <option value="null">Name(A - Z)</option>
                     <option value="null">Name(Z - A)</option>
@@ -415,43 +399,47 @@ export function ClothingBody() {
                     <option value="null">Model(A - Z)</option>
                     <option value="null">Model(Z - A)</option>
                   </select>
-                  <div className="clearfix"></div>
+                  <div class="clearfix"></div>
                 </div>
-                <div className="sorting">
+                <div class="sorting">
                   <h6>Showing</h6>
-                  <select id="country2" className="frm-field required sect">
+                  <select
+                    id="country2"
+                    onchange="change_country(this.value)"
+                    class="frm-field required sect"
+                  >
                     <option value="null">7</option>
                     <option value="null">14</option>
                     <option value="null">28</option>
                     <option value="null">35</option>
                   </select>
-                  <div className="clearfix"></div>
+                  <div class="clearfix"></div>
                 </div>
-                <div className="clearfix"></div>
+                <div class="clearfix"></div>
               </div>
-              <div className="men-wear-top">
-                <div id="top" className="callbacks_container">
-                  <ul className="rslides" id="slider3">
+              <div class="men-wear-top">
+                <div id="top" class="callbacks_container">
+                  <ul class="rslides" id="slider3">
                     <li>
-                      <img className="img-responsive" src={banner2} alt=" " />
+                      <img class="img-responsive" src={banner4} alt=" " />
                     </li>
                     <li>
-                      <img className="img-responsive" src={banner5} alt=" " />
+                      <img class="img-responsive" src={banner3} alt=" " />
                     </li>
                     <li>
-                      <img className="img-responsive" src={banner2} alt=" " />
+                      <img class="img-responsive" src={banner1} alt=" " />
                     </li>
                   </ul>
                 </div>
-                <div className="clearfix"></div>
+                <div class="clearfix"></div>
               </div>
-              <div className="men-wear-bottom">
-                <div className="col-sm-4 men-wear-left">
-                  <img className="img-responsive" src={bb2} alt=" " />
+              <div class="men-wear-bottom">
+                <div class="col-sm-4 men-wear-left">
+                  <img class="img-responsive" src={bb1} alt=" " />
                 </div>
-                <div className="col-sm-8 men-wear-right">
+                <div class="col-sm-8 men-wear-right">
                   <h4>
-                    Exclusive Men's <span>Collections</span>
+                    Exclusive Women's <span>Collections</span>
                   </h4>
                   <p>
                     Sed ut perspiciatis unde omnis iste natus error sit
@@ -462,31 +450,31 @@ export function ClothingBody() {
                     aut fugit.{" "}
                   </p>
                 </div>
-                <div className="clearfix"></div>
+                <div class="clearfix"></div>
               </div>
-              <div className="col-md-4 product-men">
-                <div className="men-pro-item simpleCart_shelfItem">
-                  <div className="men-thumb-item">
-                    <img src={m8} alt="" className="pro-image-front" />
-                    <img src={m8} alt="" className="pro-image-back" />
-                    <div className="men-cart-pro">
-                      <div className="inner-men-cart-pro">
-                        <a href="single.html" className="link-product-add-cart">
+              <div class="col-md-4 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={w4} alt="" class="pro-image-front" />
+                    <img src={w4} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span className="product-new-top">New</span>
+                    <span class="product-new-top">New</span>
                   </div>
-                  <div className="item-info-product ">
+                  <div class="item-info-product ">
                     <h4>
-                      <a href="single.html">Party Men's Blazer</a>
+                      <a href="single.html">Black Basic Shorts</a>
                     </h4>
-                    <div className="info-product-price">
-                      <span className="item_price">$260.99</span>
-                      <del>$390.71</del>
+                    <div class="info-product-price">
+                      <span class="item_price">$120.99</span>
+                      <del>$189.71</del>
                     </div>
-                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -495,7 +483,7 @@ export function ClothingBody() {
                           <input
                             type="hidden"
                             name="item_name"
-                            value="Party Men's Blazer"
+                            value="Black Basic Shorts"
                           />
                           <input type="hidden" name="amount" value="30.99" />
                           <input
@@ -514,7 +502,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            className="button"
+                            class="button"
                           />
                         </fieldset>
                       </form>
@@ -522,29 +510,441 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 product-men">
-                <div className="men-pro-item simpleCart_shelfItem">
-                  <div className="men-thumb-item">
-                    <img src={m7} alt="" className="pro-image-front" />
-                    <img src={m7} alt="" className="pro-image-back" />
-                    <div className="men-cart-pro">
-                      <div className="inner-men-cart-pro">
-                        <a href="single.html" className="link-product-add-cart">
+              <div class="col-md-4 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={b7} alt="" class="pro-image-front" />
+                    <img src={b7} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span className="product-new-top">New</span>
+                    <span class="product-new-top">New</span>
                   </div>
-                  <div className="item-info-product ">
+                  <div class="item-info-product ">
+                    <h4>
+                      <a href="single.html">Costa Swiss Bag </a>
+                    </h4>
+                    <div class="info-product-price">
+                      <span class="item_price">$290.99</span>
+                      <del>$359.71</del>
+                    </div>
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                      <form action="#" method="post">
+                        <fieldset>
+                          <input type="hidden" name="cmd" value="_cart" />
+                          <input type="hidden" name="add" value="1" />
+                          <input type="hidden" name="business" value=" " />
+                          <input
+                            type="hidden"
+                            name="item_name"
+                            value="Costa Swiss Bag"
+                          />
+                          <input type="hidden" name="amount" value="30.99" />
+                          <input
+                            type="hidden"
+                            name="discount_amount"
+                            value="1.00"
+                          />
+                          <input
+                            type="hidden"
+                            name="currency_code"
+                            value="USD"
+                          />
+                          <input type="hidden" name="return" value=" " />
+                          <input type="hidden" name="cancel_return" value=" " />
+                          <input
+                            type="submit"
+                            name="submit"
+                            value="Add to cart"
+                            class="button"
+                          />
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={s6} alt="" class="pro-image-front" />
+                    <img src={s6} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
+                          Quick View
+                        </a>
+                      </div>
+                    </div>
+                    <span class="product-new-top">New</span>
+                  </div>
+                  <div class="item-info-product ">
+                    <h4>
+                      <a href="single.html">Aero Canvas Loafers </a>
+                    </h4>
+                    <div class="info-product-price">
+                      <span class="item_price">$120.99</span>
+                      <del>$199.71</del>
+                    </div>
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                      <form action="#" method="post">
+                        <fieldset>
+                          <input type="hidden" name="cmd" value="_cart" />
+                          <input type="hidden" name="add" value="1" />
+                          <input type="hidden" name="business" value=" " />
+                          <input
+                            type="hidden"
+                            name="item_name"
+                            value="Aero Canvas Loafers"
+                          />
+                          <input type="hidden" name="amount" value="30.99" />
+                          <input
+                            type="hidden"
+                            name="discount_amount"
+                            value="1.00"
+                          />
+                          <input
+                            type="hidden"
+                            name="currency_code"
+                            value="USD"
+                          />
+                          <input type="hidden" name="return" value=" " />
+                          <input type="hidden" name="cancel_return" value=" " />
+                          <input
+                            type="submit"
+                            name="submit"
+                            value="Add to cart"
+                            class="button"
+                          />
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="single-pro">
+              <div class="col-md-3 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={w1} alt="" class="pro-image-front" />
+                    <img src={w1} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
+                          Quick View
+                        </a>
+                      </div>
+                    </div>
+                    <span class="product-new-top">New</span>
+                  </div>
+                  <div class="item-info-product ">
+                    <h4>
+                      <a href="single.html">A-line Black Skirt</a>
+                    </h4>
+                    <div class="info-product-price">
+                      <span class="item_price">$130.99</span>
+                      <del>$189.71</del>
+                    </div>
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                      <form action="#" method="post">
+                        <fieldset>
+                          <input type="hidden" name="cmd" value="_cart" />
+                          <input type="hidden" name="add" value="1" />
+                          <input type="hidden" name="business" value=" " />
+                          <input
+                            type="hidden"
+                            name="item_name"
+                            value="A-line Black Skirt"
+                          />
+                          <input type="hidden" name="amount" value="30.99" />
+                          <input
+                            type="hidden"
+                            name="discount_amount"
+                            value="1.00"
+                          />
+                          <input
+                            type="hidden"
+                            name="currency_code"
+                            value="USD"
+                          />
+                          <input type="hidden" name="return" value=" " />
+                          <input type="hidden" name="cancel_return" value=" " />
+                          <input
+                            type="submit"
+                            name="submit"
+                            value="Add to cart"
+                            class="button"
+                          />
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={w2} alt="" class="pro-image-front" />
+                    <img src={w2} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
+                          Quick View
+                        </a>
+                      </div>
+                    </div>
+                    <span class="product-new-top">New</span>
+                  </div>
+                  <div class="item-info-product ">
+                    <h4>
+                      <a href="single.html">Sleeveless Solid Blue Top</a>
+                    </h4>
+                    <div class="info-product-price">
+                      <span class="item_price">$140.99</span>
+                      <del>$189.71</del>
+                    </div>
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                      <form action="#" method="post">
+                        <fieldset>
+                          <input type="hidden" name="cmd" value="_cart" />
+                          <input type="hidden" name="add" value="1" />
+                          <input type="hidden" name="business" value=" " />
+                          <input
+                            type="hidden"
+                            name="item_name"
+                            value="Sleeveless Solid Blue Top"
+                          />
+                          <input type="hidden" name="amount" value="30.99" />
+                          <input
+                            type="hidden"
+                            name="discount_amount"
+                            value="1.00"
+                          />
+                          <input
+                            type="hidden"
+                            name="currency_code"
+                            value="USD"
+                          />
+                          <input type="hidden" name="return" value=" " />
+                          <input type="hidden" name="cancel_return" value=" " />
+                          <input
+                            type="submit"
+                            name="submit"
+                            value="Add to cart"
+                            class="button"
+                          />
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={w3} alt="" class="pro-image-front" />
+                    <img src={w3} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
+                          Quick View
+                        </a>
+                      </div>
+                    </div>
+                    <span class="product-new-top">New</span>
+                  </div>
+                  <div class="item-info-product ">
+                    <h4>
+                      <a href="single.html">Skinny Jeans</a>
+                    </h4>
+                    <div class="info-product-price">
+                      <span class="item_price">$150.99</span>
+                      <del>$189.71</del>
+                    </div>
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                      <form action="#" method="post">
+                        <fieldset>
+                          <input type="hidden" name="cmd" value="_cart" />
+                          <input type="hidden" name="add" value="1" />
+                          <input type="hidden" name="business" value=" " />
+                          <input
+                            type="hidden"
+                            name="item_name"
+                            value="Skinny Jeans "
+                          />
+                          <input type="hidden" name="amount" value="30.99" />
+                          <input
+                            type="hidden"
+                            name="discount_amount"
+                            value="1.00"
+                          />
+                          <input
+                            type="hidden"
+                            name="currency_code"
+                            value="USD"
+                          />
+                          <input type="hidden" name="return" value=" " />
+                          <input type="hidden" name="cancel_return" value=" " />
+                          <input
+                            type="submit"
+                            name="submit"
+                            value="Add to cart"
+                            class="button"
+                          />
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={w4} alt="" class="pro-image-front" />
+                    <img src={w4} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
+                          Quick View
+                        </a>
+                      </div>
+                    </div>
+                    <span class="product-new-top">New</span>
+                  </div>
+                  <div class="item-info-product ">
+                    <h4>
+                      <a href="single.html">Black Basic Shorts</a>
+                    </h4>
+                    <div class="info-product-price">
+                      <span class="item_price">$120.99</span>
+                      <del>$189.71</del>
+                    </div>
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                      <form action="#" method="post">
+                        <fieldset>
+                          <input type="hidden" name="cmd" value="_cart" />
+                          <input type="hidden" name="add" value="1" />
+                          <input type="hidden" name="business" value=" " />
+                          <input
+                            type="hidden"
+                            name="item_name"
+                            value="Black Basic Shorts"
+                          />
+                          <input type="hidden" name="amount" value="30.99" />
+                          <input
+                            type="hidden"
+                            name="discount_amount"
+                            value="1.00"
+                          />
+                          <input
+                            type="hidden"
+                            name="currency_code"
+                            value="USD"
+                          />
+                          <input type="hidden" name="return" value=" " />
+                          <input type="hidden" name="cancel_return" value=" " />
+                          <input
+                            type="submit"
+                            name="submit"
+                            value="Add to cart"
+                            class="button"
+                          />
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={w5} alt="" class="pro-image-front" />
+                    <img src={w5} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
+                          Quick View
+                        </a>
+                      </div>
+                    </div>
+                    <span class="product-new-top">New</span>
+                  </div>
+                  <div class="item-info-product ">
+                    <h4>
+                      <a href="single.html">Pink Track Pants</a>
+                    </h4>
+                    <div class="info-product-price">
+                      <span class="item_price">$220.99</span>
+                      <del>$389.71</del>
+                    </div>
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                      <form action="#" method="post">
+                        <fieldset>
+                          <input type="hidden" name="cmd" value="_cart" />
+                          <input type="hidden" name="add" value="1" />
+                          <input type="hidden" name="business" value=" " />
+                          <input
+                            type="hidden"
+                            name="item_name"
+                            value="Pink Track Pants"
+                          />
+                          <input type="hidden" name="amount" value="30.99" />
+                          <input
+                            type="hidden"
+                            name="discount_amount"
+                            value="1.00"
+                          />
+                          <input
+                            type="hidden"
+                            name="currency_code"
+                            value="USD"
+                          />
+                          <input type="hidden" name="return" value=" " />
+                          <input type="hidden" name="cancel_return" value=" " />
+                          <input
+                            type="submit"
+                            name="submit"
+                            value="Add to cart"
+                            class="button"
+                          />
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 product-men">
+                <div class="men-pro-item simpleCart_shelfItem">
+                  <div class="men-thumb-item">
+                    <img src={w6} alt="" class="pro-image-front" />
+                    <img src={w6} alt="" class="pro-image-back" />
+                    <div class="men-cart-pro">
+                      <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">
+                          Quick View
+                        </a>
+                      </div>
+                    </div>
+                    <span class="product-new-top">New</span>
+                  </div>
+                  <div class="item-info-product ">
                     <h4>
                       <a href="single.html">Analog Watch</a>
                     </h4>
-                    <div className="info-product-price">
-                      <span className="item_price">$160.99</span>
-                      <del>$290.71</del>
+                    <div class="info-product-price">
+                      <span class="item_price">$320.99</span>
+                      <del>$489.71</del>
                     </div>
-                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -572,128 +972,6 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            className="button"
-                          />
-                        </fieldset>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 product-men">
-                <div className="men-pro-item simpleCart_shelfItem">
-                  <div className="men-thumb-item">
-                    <img src={s1} alt="" className="pro-image-front" />
-                    <img src={s1} alt="" className="pro-image-back" />
-                    <div className="men-cart-pro">
-                      <div className="inner-men-cart-pro">
-                        <a href="single.html" className="link-product-add-cart">
-                          Quick View
-                        </a>
-                      </div>
-                    </div>
-                    <span className="product-new-top">New</span>
-                  </div>
-                  <div className="item-info-product ">
-                    <h4>
-                      <a href="single.html">Running Shoes</a>
-                    </h4>
-                    <div className="info-product-price">
-                      <span className="item_price">$80.99</span>
-                      <del>$89.71</del>
-                    </div>
-                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
-                      <form action="#" method="post">
-                        <fieldset>
-                          <input type="hidden" name="cmd" value="_cart" />
-                          <input type="hidden" name="add" value="1" />
-                          <input type="hidden" name="business" value=" " />
-                          <input
-                            type="hidden"
-                            name="item_name"
-                            value="Running Shoes"
-                          />
-                          <input type="hidden" name="amount" value="30.99" />
-                          <input
-                            type="hidden"
-                            name="discount_amount"
-                            value="1.00"
-                          />
-                          <input
-                            type="hidden"
-                            name="currency_code"
-                            value="USD"
-                          />
-                          <input type="hidden" name="return" value=" " />
-                          <input type="hidden" name="cancel_return" value=" " />
-                          <input
-                            type="submit"
-                            name="submit"
-                            value="Add to cart"
-                            className="button"
-                          />
-                        </fieldset>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="clearfix"></div>
-            </div>
-            <div className="clearfix"></div>
-
-            <div class="single-pro">
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m1} alt="" class="pro-image-front" />
-                    <img src={m1} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
-                          Quick View
-                        </a>
-                      </div>
-                    </div>
-                    <span class="product-new-top">New</span>
-                  </div>
-                  <div class="item-info-product ">
-                    <h4>
-                      <a href="single.html">Formal Blue Shirt</a>
-                    </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$45.99</span>
-                      <del>$69.71</del>
-                    </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
-                      <form action="#" method="post">
-                        <fieldset>
-                          <input type="hidden" name="cmd" value="_cart" />
-                          <input type="hidden" name="add" value="1" />
-                          <input type="hidden" name="business" value=" " />
-                          <input
-                            type="hidden"
-                            name="item_name"
-                            value="Formal Blue Shirt"
-                          />
-                          <input type="hidden" name="amount" value="30.99" />
-                          <input
-                            type="hidden"
-                            name="discount_amount"
-                            value="1.00"
-                          />
-                          <input
-                            type="hidden"
-                            name="currency_code"
-                            value="USD"
-                          />
-                          <input type="hidden" name="return" value=" " />
-                          <input type="hidden" name="cancel_return" value=" " />
-                          <input
-                            type="submit"
-                            name="submit"
-                            value="Add to cart"
                             class="button"
                           />
                         </fieldset>
@@ -705,8 +983,8 @@ export function ClothingBody() {
               <div class="col-md-3 product-men">
                 <div class="men-pro-item simpleCart_shelfItem">
                   <div class="men-thumb-item">
-                    <img src={m2} alt="" class="pro-image-front" />
-                    <img src={m2} alt="" class="pro-image-back" />
+                    <img src={w7} alt="" class="pro-image-front" />
+                    <img src={w7} alt="" class="pro-image-back" />
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
                         <a href="single.html" class="link-product-add-cart">
@@ -718,126 +996,10 @@ export function ClothingBody() {
                   </div>
                   <div class="item-info-product ">
                     <h4>
-                      <a href="single.html">Gabi Full Sleeve Sweatshirt</a>
+                      <a href="single.html">Ankle Length Socks</a>
                     </h4>
                     <div class="info-product-price">
-                      <span class="item_price">$45.99</span>
-                      <del>$69.71</del>
-                    </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
-                      <form action="#" method="post">
-                        <fieldset>
-                          <input type="hidden" name="cmd" value="_cart" />
-                          <input type="hidden" name="add" value="1" />
-                          <input type="hidden" name="business" value=" " />
-                          <input
-                            type="hidden"
-                            name="item_name"
-                            value="Sweatshirt"
-                          />
-                          <input type="hidden" name="amount" value="30.99" />
-                          <input
-                            type="hidden"
-                            name="discount_amount"
-                            value="1.00"
-                          />
-                          <input
-                            type="hidden"
-                            name="currency_code"
-                            value="USD"
-                          />
-                          <input type="hidden" name="return" value=" " />
-                          <input type="hidden" name="cancel_return" value=" " />
-                          <input
-                            type="submit"
-                            name="submit"
-                            value="Add to cart"
-                            class="button"
-                          />
-                        </fieldset>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m3} alt="" class="pro-image-front" />
-                    <img src={m3} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
-                          Quick View
-                        </a>
-                      </div>
-                    </div>
-                    <span class="product-new-top">New</span>
-                  </div>
-                  <div class="item-info-product ">
-                    <h4>
-                      <a href="single.html">Dark Blue Track Pants</a>
-                    </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$80.99</span>
-                      <del>$89.71</del>
-                    </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
-                      <form action="#" method="post">
-                        <fieldset>
-                          <input type="hidden" name="cmd" value="_cart" />
-                          <input type="hidden" name="add" value="1" />
-                          <input type="hidden" name="business" value=" " />
-                          <input
-                            type="hidden"
-                            name="item_name"
-                            value="Dark Blue Track Pants"
-                          />
-                          <input type="hidden" name="amount" value="30.99" />
-                          <input
-                            type="hidden"
-                            name="discount_amount"
-                            value="1.00"
-                          />
-                          <input
-                            type="hidden"
-                            name="currency_code"
-                            value="USD"
-                          />
-                          <input type="hidden" name="return" value=" " />
-                          <input type="hidden" name="cancel_return" value=" " />
-                          <input
-                            type="submit"
-                            name="submit"
-                            value="Add to cart"
-                            class="button"
-                          />
-                        </fieldset>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m4} alt="" class="pro-image-front" />
-                    <img src={m4} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
-                          Quick View
-                        </a>
-                      </div>
-                    </div>
-                    <span class="product-new-top">New</span>
-                  </div>
-                  <div class="item-info-product ">
-                    <h4>
-                      <a href="single.html">Round Neck Black T-Shirt</a>
-                    </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$190.99</span>
+                      <span class="item_price">$100.99</span>
                       <del>$159.71</del>
                     </div>
                     <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
@@ -849,7 +1011,7 @@ export function ClothingBody() {
                           <input
                             type="hidden"
                             name="item_name"
-                            value="Black T-Shirt"
+                            value="Ankle Length Socks"
                           />
                           <input type="hidden" name="amount" value="30.99" />
                           <input
@@ -879,8 +1041,8 @@ export function ClothingBody() {
               <div class="col-md-3 product-men">
                 <div class="men-pro-item simpleCart_shelfItem">
                   <div class="men-thumb-item">
-                    <img src={m5} alt="" class="pro-image-front" />
-                    <img src={m5} alt="" class="pro-image-back" />
+                    <img src={w8} alt="" class="pro-image-front" />
+                    <img src={w8} alt="" class="pro-image-back" />
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
                         <a href="single.html" class="link-product-add-cart">
@@ -892,11 +1054,11 @@ export function ClothingBody() {
                   </div>
                   <div class="item-info-product ">
                     <h4>
-                      <a href="single.html">Men's Black Jeans</a>
+                      <a href="single.html">Reebok Women's Tights</a>
                     </h4>
                     <div class="info-product-price">
-                      <span class="item_price">$60.99</span>
-                      <del>$90.71</del>
+                      <span class="item_price">$130.99</span>
+                      <del>$169.71</del>
                     </div>
                     <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
@@ -907,7 +1069,7 @@ export function ClothingBody() {
                           <input
                             type="hidden"
                             name="item_name"
-                            value="Men's Black Jeans"
+                            value="Reebok Women's Tights"
                           />
                           <input type="hidden" name="amount" value="30.99" />
                           <input
@@ -934,233 +1096,8 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m7} alt="" class="pro-image-front" />
-                    <img src={m7} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
-                          Quick View
-                        </a>
-                      </div>
-                    </div>
-                    <span class="product-new-top">New</span>
-                  </div>
-                  <div class="item-info-product ">
-                    <h4>
-                      <a href="single.html">Analog Watch</a>
-                    </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$160.99</span>
-                      <del>$290.71</del>
-                    </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
-                      <form action="#" method="post">
-                        <fieldset>
-                          <input type="hidden" name="cmd" value="_cart" />
-                          <input type="hidden" name="add" value="1" />
-                          <input type="hidden" name="business" value=" " />
-                          <input
-                            type="hidden"
-                            name="item_name"
-                            value="Analog Watch"
-                          />
-                          <input type="hidden" name="amount" value="30.99" />
-                          <input
-                            type="hidden"
-                            name="discount_amount"
-                            value="1.00"
-                          />
-                          <input
-                            type="hidden"
-                            name="currency_code"
-                            value="USD"
-                          />
-                          <input type="hidden" name="return" value=" " />
-                          <input type="hidden" name="cancel_return" value=" " />
-                          <input
-                            type="submit"
-                            name="submit"
-                            value="Add to cart"
-                            class="button"
-                          />
-                        </fieldset>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m6} alt="" class="pro-image-front" />
-                    <img src={m6} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
-                          Quick View
-                        </a>
-                      </div>
-                    </div>
-                    <span class="product-new-top">New</span>
-                  </div>
-                  <div class="item-info-product ">
-                    <h4>
-                      <a href="single.html">Reversible Belt</a>
-                    </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$30.99</span>
-                      <del>$50.71</del>
-                    </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
-                      <form action="#" method="post">
-                        <fieldset>
-                          <input type="hidden" name="cmd" value="_cart" />
-                          <input type="hidden" name="add" value="1" />
-                          <input type="hidden" name="business" value=" " />
-                          <input
-                            type="hidden"
-                            name="item_name"
-                            value="Reversible Belt"
-                          />
-                          <input type="hidden" name="amount" value="30.99" />
-                          <input
-                            type="hidden"
-                            name="discount_amount"
-                            value="1.00"
-                          />
-                          <input
-                            type="hidden"
-                            name="currency_code"
-                            value="USD"
-                          />
-                          <input type="hidden" name="return" value=" " />
-                          <input type="hidden" name="cancel_return" value=" " />
-                          <input
-                            type="submit"
-                            name="submit"
-                            value="Add to cart"
-                            class="button"
-                          />
-                        </fieldset>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m8} alt="" class="pro-image-front" />
-                    <img src={m8} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
-                          Quick View
-                        </a>
-                      </div>
-                    </div>
-                    <span class="product-new-top">New</span>
-                  </div>
-                  <div class="item-info-product ">
-                    <h4>
-                      <a href="single.html">Party Men's Blazer</a>
-                    </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$260.99</span>
-                      <del>$390.71</del>
-                    </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
-                      <form action="#" method="post">
-                        <fieldset>
-                          <input type="hidden" name="cmd" value="_cart" />
-                          <input type="hidden" name="add" value="1" />
-                          <input type="hidden" name="business" value=" " />
-                          <input
-                            type="hidden"
-                            name="item_name"
-                            value="Party Men's Blazer"
-                          />
-                          <input type="hidden" name="amount" value="30.99" />
-                          <input
-                            type="hidden"
-                            name="discount_amount"
-                            value="1.00"
-                          />
-                          <input
-                            type="hidden"
-                            name="currency_code"
-                            value="USD"
-                          />
-                          <input type="hidden" name="return" value=" " />
-                          <input type="hidden" name="cancel_return" value=" " />
-                          <input
-                            type="submit"
-                            name="submit"
-                            value="Add to cart"
-                            class="button"
-                          />
-                        </fieldset>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
 
-export function Coupon() {
-  return (
-    <>
-      <div>
-        <div class="coupons">
-          <div class="coupons-grids text-center">
-            <div class="w3layouts_mail_grid">
-              <div class="col-md-3 w3layouts_mail_grid_left">
-                <div class="w3layouts_mail_grid_left1 hvr-radial-out">
-                  <i class="fa fa-truck" aria-hidden="true"></i>
-                </div>
-                <div class="w3layouts_mail_grid_left2">
-                  <h3>FREE SHIPPING</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
-                </div>
-              </div>
-              <div class="col-md-3 w3layouts_mail_grid_left">
-                <div class="w3layouts_mail_grid_left1 hvr-radial-out">
-                  <i class="fa fa-headphones" aria-hidden="true"></i>
-                </div>
-                <div class="w3layouts_mail_grid_left2">
-                  <h3>24/7 SUPPORT</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
-                </div>
-              </div>
-              <div class="col-md-3 w3layouts_mail_grid_left">
-                <div class="w3layouts_mail_grid_left1 hvr-radial-out">
-                  <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                </div>
-                <div class="w3layouts_mail_grid_left2">
-                  <h3>MONEY BACK GUARANTEE</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
-                </div>
-              </div>
-              <div class="col-md-3 w3layouts_mail_grid_left">
-                <div class="w3layouts_mail_grid_left1 hvr-radial-out">
-                  <i class="fa fa-gift" aria-hidden="true"></i>
-                </div>
-                <div class="w3layouts_mail_grid_left2">
-                  <h3>FREE GIFT COUPONS</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
-                </div>
-              </div>
-              <div class="clearfix"> </div>
+              <div class="clearfix"></div>
             </div>
           </div>
         </div>
