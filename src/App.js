@@ -9,6 +9,7 @@ import GlobalStore from "./components/GlobalStore";
 import AboutPage from "./components/AboutPage";
 import MenWears from "./components/MenWears";
 import WomenWears from "./components/WomenWears";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -22,24 +23,11 @@ const App = () => {
           <ErrorBoundary>
             <Routes>
               <Route path="/" exact element={<LandingPage />} />
-            </Routes>
-          </ErrorBoundary>
-
-          <ErrorBoundary>
-            <Routes>
               <Route path="/about" element={<AboutPage />} />
-            </Routes>
-          </ErrorBoundary>
-
-          <ErrorBoundary>
-            <Routes>
               <Route path="/men" element={<MenWears />} />
-            </Routes>
-          </ErrorBoundary>
-
-          <ErrorBoundary>
-            <Routes>
+              <Route path="/men" element={<MenWears />} />
               <Route path="/women" element={<WomenWears />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </ErrorBoundary>
 

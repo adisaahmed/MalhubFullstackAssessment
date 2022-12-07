@@ -287,7 +287,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="menu__item">
-                      <Link className="menu__a" to="">
+                      <Link className="menu__a" to="/contact">
                         Contact
                       </Link>
                     </li>

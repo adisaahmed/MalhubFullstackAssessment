@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ab_pic from "../images/ab_pic.jpg";
 import bottom1 from "../images/bottom1.jpg";
 import bottom2 from "../images/bottom2.jpg";
@@ -17,16 +18,16 @@ export function Banner() {
   return (
     <>
       <div>
-        <div class="page-head_agile_info_w3l">
-          <div class="container">
+        <div className="page-head_agile_info_w3l">
+          <div className="container">
             <h3>
               About <span>Us </span>
             </h3>
-            <div class="services-breadcrumb">
-              <div class="agile_inner_breadcrumb">
-                <ul class="w3_short">
+            <div className="services-breadcrumb">
+              <div className="agile_inner_breadcrumb">
+                <ul className="w3_short">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="index.html">Home</Link>
                     <i>|</i>
                   </li>
                   <li>About</li>
@@ -44,13 +45,13 @@ export function AboutUs() {
   return (
     <>
       <div>
-        <div class="banner_bottom_agile_info">
-          <div class="container">
-            <div class="agile_ab_w3ls_info">
-              <div class="col-md-6 ab_pic_w3ls">
-                <img src={ab_pic} alt=" " class="img-responsive" />
+        <div className="banner_bottom_agile_info">
+          <div className="container">
+            <div className="agile_ab_w3ls_info">
+              <div className="col-md-6 ab_pic_w3ls">
+                <img src={ab_pic} alt=" " className="img-responsive" />
               </div>
-              <div class="col-md-6 ab_pic_w3ls_text_info">
+              <div className="col-md-6 ab_pic_w3ls_text_info">
                 <h5>
                   About Our Elite <span> Shoppy</span>{" "}
                 </h5>
@@ -66,12 +67,12 @@ export function AboutUs() {
                   aliqua.
                 </p>
               </div>
-              <div class="clearfix"></div>
+              <div className="clearfix"></div>
             </div>
-            <div class="banner_bottom_agile_info_inner_w3ls">
-              <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
-                <figure class="effect-roxy">
-                  <img src={bottom1} alt=" " class="img-responsive" />
+            <div className="banner_bottom_agile_info_inner_w3ls">
+              <div className="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
+                <figure className="effect-roxy">
+                  <img src={bottom1} alt=" " className="img-responsive" />
                   <figcaption>
                     <h3>
                       <span>F</span>all Ahead
@@ -80,9 +81,9 @@ export function AboutUs() {
                   </figcaption>
                 </figure>
               </div>
-              <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
-                <figure class="effect-roxy">
-                  <img src={bottom2} alt=" " class="img-responsive" />
+              <div className="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
+                <figure className="effect-roxy">
+                  <img src={bottom2} alt=" " className="img-responsive" />
                   <figcaption>
                     <h3>
                       <span>F</span>all Ahead
@@ -91,7 +92,7 @@ export function AboutUs() {
                   </figcaption>
                 </figure>
               </div>
-              <div class="clearfix"></div>
+              <div className="clearfix"></div>
             </div>
           </div>
         </div>
@@ -104,225 +105,225 @@ export function Team() {
   return (
     <>
       <div>
-        <div class="banner_bottom_agile_info team">
-          <div class="container">
-            <h3 class="wthree_text_info">
+        <div className="banner_bottom_agile_info team">
+          <div className="container">
+            <h3 className="wthree_text_info">
               Our Team <span>Members</span>
             </h3>
-            <div class="inner_w3l_agile_grids">
-              <div class="col-md-3 team-grids">
-                <div class="thumbnail team-w3agile">
-                  <img src={t1} class="img-responsive" alt=" " />
-                  <div class="social-icons team-icons right-w3l fotw33">
-                    <div class="caption">
+            <div className="inner_w3l_agile_grids">
+              <div className="col-md-3 team-grids">
+                <div className="thumbnail team-w3agile">
+                  <img src={t1} className="img-responsive" alt=" " />
+                  <div className="social-icons team-icons right-w3l fotw33">
+                    <div className="caption">
                       <h4>Joanna Vilken</h4>
                       <p>Add Short Description</p>
                     </div>
-                    <ul class="social-nav model-3d-0 footer-social w3_agile_social two">
+                    <ul className="social-nav model-3d-0 footer-social w3_agile_social two">
                       <li>
-                        <a href="#" class="facebook">
-                          <div class="front">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <Link to="#" className="facebook">
+                          <div className="front">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="twitter">
-                          <div class="front">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <Link to="#" className="twitter">
+                          <div className="front">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="instagram">
-                          <div class="front">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <Link to="#" className="instagram">
+                          <div className="front">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="pinterest">
-                          <div class="front">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <Link to="#" className="pinterest">
+                          <div className="front">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 team-grids">
-                <div class="thumbnail team-w3agile">
-                  <img src={t2} class="img-responsive" alt="" />
-                  <div class="social-icons team-icons right-w3l fotw33">
-                    <div class="caption">
+              <div className="col-md-3 team-grids">
+                <div className="thumbnail team-w3agile">
+                  <img src={t2} className="img-responsive" alt="" />
+                  <div className="social-icons team-icons right-w3l fotw33">
+                    <div className="caption">
                       <h4>Anika Mollik</h4>
                       <p>Add Short Description</p>
                     </div>
-                    <ul class="social-nav model-3d-0 footer-social w3_agile_social two">
+                    <ul className="social-nav model-3d-0 footer-social w3_agile_social two">
                       <li>
-                        <a href="#" class="facebook">
-                          <div class="front">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <Link to="#" className="facebook">
+                          <div className="front">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="twitter">
-                          <div class="front">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <Link to="#" className="twitter">
+                          <div className="front">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="instagram">
-                          <div class="front">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <Link to="#" className="instagram">
+                          <div className="front">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="pinterest">
-                          <div class="front">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <Link to="#" className="pinterest">
+                          <div className="front">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 team-grids">
-                <div class="thumbnail team-w3agile">
-                  <img src={t3} class="img-responsive" alt="" />
-                  <div class="social-icons team-icons right-w3l fotw33">
-                    <div class="caption">
+              <div className="col-md-3 team-grids">
+                <div className="thumbnail team-w3agile">
+                  <img src={t3} className="img-responsive" alt="" />
+                  <div className="social-icons team-icons right-w3l fotw33">
+                    <div className="caption">
                       <h4>Megali Deo</h4>
                       <p>Add Short Description</p>
                     </div>
-                    <ul class="social-nav model-3d-0 footer-social w3_agile_social two">
+                    <ul className="social-nav model-3d-0 footer-social w3_agile_social two">
                       <li>
-                        <a href="#" class="facebook">
-                          <div class="front">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <Link to="#" className="facebook">
+                          <div className="front">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="twitter">
-                          <div class="front">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <Link to="#" className="twitter">
+                          <div className="front">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="instagram">
-                          <div class="front">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <Link to="#" className="instagram">
+                          <div className="front">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="pinterest">
-                          <div class="front">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <Link to="#" className="pinterest">
+                          <div className="front">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 team-grids">
-                <div class="thumbnail team-w3agile">
-                  <img src={t4} class="img-responsive" alt="" />
-                  <div class="social-icons team-icons right-w3l fotw33">
-                    <div class="caption">
+              <div className="col-md-3 team-grids">
+                <div className="thumbnail team-w3agile">
+                  <img src={t4} className="img-responsive" alt="" />
+                  <div className="social-icons team-icons right-w3l fotw33">
+                    <div className="caption">
                       <h4>Retas Word</h4>
                       <p>Add Short Description</p>
                     </div>
-                    <ul class="social-nav model-3d-0 footer-social w3_agile_social two">
+                    <ul className="social-nav model-3d-0 footer-social w3_agile_social two">
                       <li>
-                        <a href="#" class="facebook">
-                          <div class="front">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <Link to="#" className="facebook">
+                          <div className="front">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="twitter">
-                          <div class="front">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <Link to="#" className="twitter">
+                          <div className="front">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="instagram">
-                          <div class="front">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <Link to="#" className="instagram">
+                          <div className="front">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" class="pinterest">
-                          <div class="front">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <Link to="#" className="pinterest">
+                          <div className="front">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
                           </div>
-                          <div class="back">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                          <div className="back">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
                           </div>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="clearfix"> </div>
+              <div className="clearfix"> </div>
             </div>
           </div>
         </div>
@@ -335,12 +336,12 @@ export function Schedule() {
   return (
     <>
       <div>
-        <div class="schedule-bottom">
-          <div class="col-md-6 agileinfo_schedule_bottom_left">
-            <img src={mid} alt=" " class="img-responsive" />
+        <div className="schedule-bottom">
+          <div className="col-md-6 agileinfo_schedule_bottom_left">
+            <img src={mid} alt=" " className="img-responsive" />
           </div>
-          <div class="col-md-6 agileits_schedule_bottom_right">
-            <div class="w3ls_schedule_bottom_right_grid">
+          <div className="col-md-6 agileits_schedule_bottom_right">
+            <div className="w3ls_schedule_bottom_right_grid">
               <h3>
                 Save up to <span>50%</span> in this week
               </h3>
@@ -349,37 +350,37 @@ export function Schedule() {
                 sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus
                 finibus posuere.
               </p>
-              <div class="col-md-4 w3l_schedule_bottom_right_grid1">
-                <i class="fa fa-user-o" aria-hidden="true"></i>
+              <div className="col-md-4 w3l_schedule_bottom_right_grid1">
+                <i className="fa fa-user-o" aria-hidden="true"></i>
                 <h4>Customers</h4>
-                <h5 class="counter">653</h5>
+                <h5 className="counter">653</h5>
               </div>
-              <div class="col-md-4 w3l_schedule_bottom_right_grid1">
-                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              <div className="col-md-4 w3l_schedule_bottom_right_grid1">
+                <i className="fa fa-calendar-o" aria-hidden="true"></i>
                 <h4>Events</h4>
-                <h5 class="counter">823</h5>
+                <h5 className="counter">823</h5>
               </div>
-              <div class="col-md-4 w3l_schedule_bottom_right_grid1">
-                <i class="fa fa-shield" aria-hidden="true"></i>
+              <div className="col-md-4 w3l_schedule_bottom_right_grid1">
+                <i className="fa fa-shield" aria-hidden="true"></i>
                 <h4>Awards</h4>
-                <h5 class="counter">45</h5>
+                <h5 className="counter">45</h5>
               </div>
-              <div class="clearfix"> </div>
+              <div className="clearfix"> </div>
             </div>
           </div>
-          <div class="clearfix"> </div>
+          <div className="clearfix"> </div>
         </div>
-        <div class="banner-bootom-w3-agileits">
-          <div class="container">
-            <h3 class="wthree_text_info">
+        <div className="banner-bootom-w3-agileits">
+          <div className="container">
+            <h3 className="wthree_text_info">
               What's <span>Trending</span>
             </h3>
 
-            <div class="col-md-5 bb-grids bb-left-agileits-w3layouts">
-              <a href="women.html">
-                <div class="bb-left-agileits-w3layouts-inner grid">
-                  <figure class="effect-roxy">
-                    <img src={bb1} alt=" " class="img-responsive" />
+            <div className="col-md-5 bb-grids bb-left-agileits-w3layouts">
+              <Link to="women.html">
+                <div className="bb-left-agileits-w3layouts-inner grid">
+                  <figure className="effect-roxy">
+                    <img src={bb1} alt=" " className="img-responsive" />
                     <figcaption>
                       <h3>
                         <span>S</span>ale{" "}
@@ -388,12 +389,12 @@ export function Schedule() {
                     </figcaption>
                   </figure>
                 </div>
-              </a>
+              </Link>
             </div>
-            <div class="col-md-7 bb-grids bb-middle-agileits-w3layouts">
-              <div class="bb-middle-agileits-w3layouts grid">
-                <figure class="effect-roxy">
-                  <img src={bottom3} alt=" " class="img-responsive" />
+            <div className="col-md-7 bb-grids bb-middle-agileits-w3layouts">
+              <div className="bb-middle-agileits-w3layouts grid">
+                <figure className="effect-roxy">
+                  <img src={bottom3} alt=" " className="img-responsive" />
                   <figcaption>
                     <h3>
                       <span>S</span>ale{" "}
@@ -402,9 +403,9 @@ export function Schedule() {
                   </figcaption>
                 </figure>
               </div>
-              <div class="bb-middle-agileits-w3layouts forth grid">
-                <figure class="effect-roxy">
-                  <img src={bottom4} alt=" " class="img-responsive" />
+              <div className="bb-middle-agileits-w3layouts forth grid">
+                <figure className="effect-roxy">
+                  <img src={bottom4} alt=" " className="img-responsive" />
                   <figcaption>
                     <h3>
                       <span>S</span>ale{" "}
@@ -413,28 +414,28 @@ export function Schedule() {
                   </figcaption>
                 </figure>
               </div>
-              <div class="clearfix"></div>
+              <div className="clearfix"></div>
             </div>
           </div>
         </div>
-        <div class="agile_last_double_sectionw3ls">
-          <div class="col-md-6 multi-gd-img multi-gd-text ">
-            <a href="womens.html">
+        <div className="agile_last_double_sectionw3ls">
+          <div className="col-md-6 multi-gd-img multi-gd-text ">
+            <Link to="womens.html">
               <img src={bot_1} alt=" " />
               <h4>
                 Flat <span>50%</span> offer
               </h4>
-            </a>
+            </Link>
           </div>
-          <div class="col-md-6 multi-gd-img multi-gd-text ">
-            <a href="womens.html">
+          <div className="col-md-6 multi-gd-img multi-gd-text ">
+            <Link to="womens.html">
               <img src={bot_2} alt=" " />
               <h4>
                 Flat <span>50%</span> offer
               </h4>
-            </a>
+            </Link>
           </div>
-          <div class="clearfix"></div>
+          <div className="clearfix"></div>
         </div>
       </div>
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import bottom1 from "../images/bottom1.jpg";
 import bottom2 from "../images/bottom2.jpg";
 import mid from "../images/mid.jpg";
@@ -236,7 +237,7 @@ export function IndexDiscountBottom() {
           </h3>
 
           <div className="col-md-5 bb-grids bb-left-agileits-w3layouts">
-            <a href="">
+            <Link to="">
               <div className="bb-left-agileits-w3layouts-inner grid">
                 <figure className="effect-roxy">
                   <img src={bb1} alt=" " className="img-responsive" />
@@ -248,10 +249,10 @@ export function IndexDiscountBottom() {
                   </figcaption>
                 </figure>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-7 bb-grids bb-middle-agileits-w3layouts">
-            <a href="">
+            <Link to="">
               <div className="bb-middle-agileits-w3layouts grid">
                 <figure className="effect-roxy">
                   <img src={bottom3} alt=" " className="img-responsive" />
@@ -263,8 +264,8 @@ export function IndexDiscountBottom() {
                   </figcaption>
                 </figure>
               </div>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="">
               <div className="bb-middle-agileits-w3layouts forth grid">
                 <figure className="effect-roxy">
                   <img src={bottom4} alt=" " className="img-responsive" />
@@ -276,7 +277,7 @@ export function IndexDiscountBottom() {
                   </figcaption>
                 </figure>
               </div>
-            </a>
+            </Link>
             <div className="clearfix"></div>
           </div>
         </div>
@@ -284,20 +285,20 @@ export function IndexDiscountBottom() {
 
       <div className="agile_last_double_sectionw3ls">
         <div className="col-md-6 multi-gd-img multi-gd-text ">
-          <a href="">
+          <Link to="">
             <img src={bot_1} alt=" " />
             <h4>
               Flat <span>50%</span> offer
             </h4>
-          </a>
+          </Link>
         </div>
         <div className="col-md-6 multi-gd-img multi-gd-text ">
-          <a href="">
+          <Link to="">
             <img src={bot_2} alt=" " />
             <h4>
               Flat <span>50%</span> offer
             </h4>
-          </a>
+          </Link>
         </div>
         <div className="clearfix"></div>
       </div>
@@ -328,16 +329,16 @@ export function NewArrivals() {
                     <img src={m1} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Formal Blue Shirt</a>
+                      <Link to="">Formal Blue Shirt</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$45.99</span>
@@ -386,16 +387,16 @@ export function NewArrivals() {
                     <img src={m2} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Gabi Full Sleeve Sweatshirt</a>
+                      <Link to="">Gabi Full Sleeve Sweatshirt</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$45.99</span>
@@ -444,16 +445,16 @@ export function NewArrivals() {
                     <img src={m3} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Dark Blue Track Pants</a>
+                      <Link to="">Dark Blue Track Pants</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$80.99</span>
@@ -502,16 +503,16 @@ export function NewArrivals() {
                     <img src={m4} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Round Neck Black T-Shirt</a>
+                      <Link to="">Round Neck Black T-Shirt</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$190.99</span>
@@ -560,16 +561,16 @@ export function NewArrivals() {
                     <img src={m5} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Men's Black Jeans</a>
+                      <Link to="">Men's Black Jeans</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$60.99</span>
@@ -618,16 +619,16 @@ export function NewArrivals() {
                     <img src={m7} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Analog Watch</a>
+                      <Link to="">Analog Watch</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$160.99</span>
@@ -676,16 +677,16 @@ export function NewArrivals() {
                     <img src={m6} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Reversible Belt</a>
+                      <Link to="">Reversible Belt</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$30.99</span>
@@ -734,16 +735,16 @@ export function NewArrivals() {
                     <img src={m8} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Party Men's Blazer</a>
+                      <Link to="">Party Men's Blazer</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$260.99</span>
@@ -796,16 +797,16 @@ export function NewArrivals() {
                     <img src={w1} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">A-line Black Skirt</a>
+                      <Link to="">A-line Black Skirt</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$130.99</span>
@@ -854,16 +855,16 @@ export function NewArrivals() {
                     <img src={w2} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Sleeveless Solid Blue Top</a>
+                      <Link to="">Sleeveless Solid Blue Top</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$140.99</span>
@@ -912,16 +913,16 @@ export function NewArrivals() {
                     <img src={w3} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Skinny Jeans</a>
+                      <Link to="">Skinny Jeans</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$150.99</span>
@@ -970,16 +971,16 @@ export function NewArrivals() {
                     <img src={w4} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Black Basic Shorts</a>
+                      <Link to="">Black Basic Shorts</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$120.99</span>
@@ -1028,16 +1029,16 @@ export function NewArrivals() {
                     <img src={w5} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Pink Track Pants</a>
+                      <Link to="">Pink Track Pants</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$220.99</span>
@@ -1086,16 +1087,16 @@ export function NewArrivals() {
                     <img src={w6} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Analog Watch</a>
+                      <Link to="">Analog Watch</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$320.99</span>
@@ -1144,16 +1145,16 @@ export function NewArrivals() {
                     <img src={w7} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Ankle Length Socks</a>
+                      <Link to="">Ankle Length Socks</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$100.99</span>
@@ -1202,16 +1203,16 @@ export function NewArrivals() {
                     <img src={w8} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Reebok Women's Tights</a>
+                      <Link to="">Reebok Women's Tights</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$130.99</span>
@@ -1263,16 +1264,16 @@ export function NewArrivals() {
                     <img src={b1} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Laptop Messenger Bag</a>
+                      <Link to="">Laptop Messenger Bag</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$140.99</span>
@@ -1321,16 +1322,16 @@ export function NewArrivals() {
                     <img src={b2} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Puma Backpack</a>
+                      <Link to="">Puma Backpack</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$127.99</span>
@@ -1379,16 +1380,16 @@ export function NewArrivals() {
                     <img src={b3} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href=""> Laptop Backpack</a>
+                      <Link to=""> Laptop Backpack</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$120.99</span>
@@ -1437,16 +1438,16 @@ export function NewArrivals() {
                     <img src={b4} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Travel Duffel Bag </a>
+                      <Link to="">Travel Duffel Bag </Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$190.99</span>
@@ -1495,16 +1496,16 @@ export function NewArrivals() {
                     <img src={b5} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href=""> Hand-held Bag </a>
+                      <Link to=""> Hand-held Bag </Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$190.99</span>
@@ -1553,16 +1554,16 @@ export function NewArrivals() {
                     <img src={b6} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Butterflies Bag </a>
+                      <Link to="">Butterflies Bag </Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$190.99</span>
@@ -1615,16 +1616,16 @@ export function NewArrivals() {
                     />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Costa Swiss Bag </a>
+                      <Link to="">Costa Swiss Bag </Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$290.99</span>
@@ -1673,16 +1674,16 @@ export function NewArrivals() {
                     <img src={b8} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Noble Designs Bag </a>
+                      <Link to="">Noble Designs Bag </Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$120.99</span>
@@ -1734,16 +1735,16 @@ export function NewArrivals() {
                     <img src={s1} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Running Shoes</a>
+                      <Link to="">Running Shoes</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$80.99</span>
@@ -1792,16 +1793,16 @@ export function NewArrivals() {
                     <img src={s2} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Shoetopia Lace Up</a>
+                      <Link to="">Shoetopia Lace Up</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$90.99</span>
@@ -1850,16 +1851,16 @@ export function NewArrivals() {
                     <img src={s3} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Steemo Casuals(Black)</a>
+                      <Link to="">Steemo Casuals(Black)</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$90.99</span>
@@ -1908,16 +1909,16 @@ export function NewArrivals() {
                     <img src={s4} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Benetton Flip Flops</a>
+                      <Link to="">Benetton Flip Flops</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$40.99</span>
@@ -1966,16 +1967,16 @@ export function NewArrivals() {
                     <img src={s5} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Moonwalk Bellies </a>
+                      <Link to="">Moonwalk Bellies </Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$80.99</span>
@@ -2024,16 +2025,16 @@ export function NewArrivals() {
                     <img src={s6} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Aero Canvas Loafers </a>
+                      <Link to="">Aero Canvas Loafers </Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$120.99</span>
@@ -2082,16 +2083,16 @@ export function NewArrivals() {
                     <img src={s7} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Sparx Sporty Canvas Shoes</a>
+                      <Link to="">Sparx Sporty Canvas Shoes</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$160.99</span>
@@ -2140,16 +2141,16 @@ export function NewArrivals() {
                     <img src={s8} alt="" className="pro-image-back" />
                     <div className="men-cart-pro">
                       <div className="inner-men-cart-pro">
-                        <a href="" className="a-product-add-cart">
+                        <Link to="" className="a-product-add-cart">
                           Quick View
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <span className="product-new-top">New</span>
                   </div>
                   <div className="item-info-product ">
                     <h4>
-                      <a href="">Women BLACK Heels</a>
+                      <Link to="">Women BLACK Heels</Link>
                     </h4>
                     <div className="info-product-price">
                       <span className="item_price">$180.99</span>
@@ -2209,9 +2210,9 @@ export function Offers() {
             We Offer Flat <span>40%</span> Discount
           </h6>
 
-          <a className="hvr-outline-out button2" href="">
+          <Link className="hvr-outline-out button2" to="">
             Shop Now{" "}
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -2268,9 +2269,9 @@ export function Footer() {
       <div className="footer_agile_inner_info_w3l">
         <div className="col-md-3 footer-left">
           <h2>
-            <a href="">
+            <Link to="">
               <span>E</span>lite Shoppy{" "}
-            </a>
+            </Link>
           </h2>
           <p>
             Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
@@ -2278,44 +2279,44 @@ export function Footer() {
           </p>
           <ul className="social-nav model-3d-0 footer-social w3_agile_social two">
             <li>
-              <a href="#" className="facebook">
+              <Link to="#" className="facebook">
                 <div className="front">
                   <i className="fa fa-facebook" aria-hidden="true"></i>
                 </div>
                 <div className="back">
                   <i className="fa fa-facebook" aria-hidden="true"></i>
                 </div>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="twitter">
+              <Link to="#" className="twitter">
                 <div className="front">
                   <i className="fa fa-twitter" aria-hidden="true"></i>
                 </div>
                 <div className="back">
                   <i className="fa fa-twitter" aria-hidden="true"></i>
                 </div>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="instagram">
+              <Link to="#" className="instagram">
                 <div className="front">
                   <i className="fa fa-instagram" aria-hidden="true"></i>
                 </div>
                 <div className="back">
                   <i className="fa fa-instagram" aria-hidden="true"></i>
                 </div>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="pinterest">
+              <Link to="#" className="pinterest">
                 <div className="front">
                   <i className="fa fa-aedin" aria-hidden="true"></i>
                 </div>
                 <div className="back">
                   <i className="fa fa-aedin" aria-hidden="true"></i>
                 </div>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -2327,22 +2328,22 @@ export function Footer() {
               </h4>
               <ul>
                 <li>
-                  <a href="">Home</a>
+                  <Link to="">Home</Link>
                 </li>
                 <li>
-                  <a href="">Men's Wear</a>
+                  <Link to="">Men's Wear</Link>
                 </li>
                 <li>
-                  <a href="">Women's wear</a>
+                  <Link to="">Women's wear</Link>
                 </li>
                 <li>
-                  <a href="">About</a>
+                  <Link to="">About</Link>
                 </li>
                 <li>
-                  <a href="">Short Codes</a>
+                  <Link to="">Short Codes</Link>
                 </li>
                 <li>
-                  <a href="">Contact</a>
+                  <Link to="">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -2369,7 +2370,7 @@ export function Footer() {
                   <div className="w3-address-right">
                     <h6>Email Address</h6>
                     <p>
-                      Email :<a href=""> mail@example.com</a>
+                      Email :<Link to=""> mail@example.com</Link>
                     </p>
                   </div>
                   <div className="clearfix"> </div>
@@ -2392,49 +2393,49 @@ export function Footer() {
               </h4>
               <ul>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t1} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t2} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t3} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t4} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t1} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t2} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t3} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t2} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="">
                     <img src={t4} alt=" " className="img-responsive" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -2462,7 +2463,7 @@ export function Footer() {
         </div>
         <p className="copy-right">
           &#169; 2022 Amco shoppy. All rights reserved | Design by{" "}
-          <a href="">Ahmed Adisa</a>
+          <Link to="">Ahmed Adisa</Link>
         </p>
       </div>
     </div>

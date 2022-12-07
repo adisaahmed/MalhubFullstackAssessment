@@ -643,30 +643,30 @@ export function ClothingBody() {
             </div>
             <div className="clearfix"></div>
 
-            <div class="single-pro">
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m1} alt="" class="pro-image-front" />
-                    <img src={m1} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
+            <div className="single-pro">
+              <div className="col-md-3 product-men">
+                <div className="men-pro-item simpleCart_shelfItem">
+                  <div className="men-thumb-item">
+                    <img src={m1} alt="" className="pro-image-front" />
+                    <img src={m1} alt="" className="pro-image-back" />
+                    <div className="men-cart-pro">
+                      <div className="inner-men-cart-pro">
+                        <a href="single.html" className="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+                    <span className="product-new-top">New</span>
                   </div>
-                  <div class="item-info-product ">
+                  <div className="item-info-product ">
                     <h4>
                       <a href="single.html">Formal Blue Shirt</a>
                     </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$45.99</span>
+                    <div className="info-product-price">
+                      <span className="item_price">$45.99</span>
                       <del>$69.71</del>
                     </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -694,7 +694,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            class="button"
+                            className="button"
                           />
                         </fieldset>
                       </form>
@@ -702,29 +702,29 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m2} alt="" class="pro-image-front" />
-                    <img src={m2} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
+              <div className="col-md-3 product-men">
+                <div className="men-pro-item simpleCart_shelfItem">
+                  <div className="men-thumb-item">
+                    <img src={m2} alt="" className="pro-image-front" />
+                    <img src={m2} alt="" className="pro-image-back" />
+                    <div className="men-cart-pro">
+                      <div className="inner-men-cart-pro">
+                        <a href="single.html" className="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+                    <span className="product-new-top">New</span>
                   </div>
-                  <div class="item-info-product ">
+                  <div className="item-info-product ">
                     <h4>
                       <a href="single.html">Gabi Full Sleeve Sweatshirt</a>
                     </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$45.99</span>
+                    <div className="info-product-price">
+                      <span className="item_price">$45.99</span>
                       <del>$69.71</del>
                     </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -752,7 +752,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            class="button"
+                            className="button"
                           />
                         </fieldset>
                       </form>
@@ -760,29 +760,29 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m3} alt="" class="pro-image-front" />
-                    <img src={m3} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
+              <div className="col-md-3 product-men">
+                <div className="men-pro-item simpleCart_shelfItem">
+                  <div className="men-thumb-item">
+                    <img src={m3} alt="" className="pro-image-front" />
+                    <img src={m3} alt="" className="pro-image-back" />
+                    <div className="men-cart-pro">
+                      <div className="inner-men-cart-pro">
+                        <a href="single.html" className="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+                    <span className="product-new-top">New</span>
                   </div>
-                  <div class="item-info-product ">
+                  <div className="item-info-product ">
                     <h4>
                       <a href="single.html">Dark Blue Track Pants</a>
                     </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$80.99</span>
+                    <div className="info-product-price">
+                      <span className="item_price">$80.99</span>
                       <del>$89.71</del>
                     </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -810,7 +810,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            class="button"
+                            className="button"
                           />
                         </fieldset>
                       </form>
@@ -818,29 +818,29 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m4} alt="" class="pro-image-front" />
-                    <img src={m4} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
+              <div className="col-md-3 product-men">
+                <div className="men-pro-item simpleCart_shelfItem">
+                  <div className="men-thumb-item">
+                    <img src={m4} alt="" className="pro-image-front" />
+                    <img src={m4} alt="" className="pro-image-back" />
+                    <div className="men-cart-pro">
+                      <div className="inner-men-cart-pro">
+                        <a href="single.html" className="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+                    <span className="product-new-top">New</span>
                   </div>
-                  <div class="item-info-product ">
+                  <div className="item-info-product ">
                     <h4>
                       <a href="single.html">Round Neck Black T-Shirt</a>
                     </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$190.99</span>
+                    <div className="info-product-price">
+                      <span className="item_price">$190.99</span>
                       <del>$159.71</del>
                     </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -868,7 +868,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            class="button"
+                            className="button"
                           />
                         </fieldset>
                       </form>
@@ -876,29 +876,29 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m5} alt="" class="pro-image-front" />
-                    <img src={m5} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
+              <div className="col-md-3 product-men">
+                <div className="men-pro-item simpleCart_shelfItem">
+                  <div className="men-thumb-item">
+                    <img src={m5} alt="" className="pro-image-front" />
+                    <img src={m5} alt="" className="pro-image-back" />
+                    <div className="men-cart-pro">
+                      <div className="inner-men-cart-pro">
+                        <a href="single.html" className="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+                    <span className="product-new-top">New</span>
                   </div>
-                  <div class="item-info-product ">
+                  <div className="item-info-product ">
                     <h4>
                       <a href="single.html">Men's Black Jeans</a>
                     </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$60.99</span>
+                    <div className="info-product-price">
+                      <span className="item_price">$60.99</span>
                       <del>$90.71</del>
                     </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -926,7 +926,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            class="button"
+                            className="button"
                           />
                         </fieldset>
                       </form>
@@ -934,29 +934,29 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m7} alt="" class="pro-image-front" />
-                    <img src={m7} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
+              <div className="col-md-3 product-men">
+                <div className="men-pro-item simpleCart_shelfItem">
+                  <div className="men-thumb-item">
+                    <img src={m7} alt="" className="pro-image-front" />
+                    <img src={m7} alt="" className="pro-image-back" />
+                    <div className="men-cart-pro">
+                      <div className="inner-men-cart-pro">
+                        <a href="single.html" className="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+                    <span className="product-new-top">New</span>
                   </div>
-                  <div class="item-info-product ">
+                  <div className="item-info-product ">
                     <h4>
                       <a href="single.html">Analog Watch</a>
                     </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$160.99</span>
+                    <div className="info-product-price">
+                      <span className="item_price">$160.99</span>
                       <del>$290.71</del>
                     </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -984,7 +984,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            class="button"
+                            className="button"
                           />
                         </fieldset>
                       </form>
@@ -992,29 +992,29 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m6} alt="" class="pro-image-front" />
-                    <img src={m6} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
+              <div className="col-md-3 product-men">
+                <div className="men-pro-item simpleCart_shelfItem">
+                  <div className="men-thumb-item">
+                    <img src={m6} alt="" className="pro-image-front" />
+                    <img src={m6} alt="" className="pro-image-back" />
+                    <div className="men-cart-pro">
+                      <div className="inner-men-cart-pro">
+                        <a href="single.html" className="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+                    <span className="product-new-top">New</span>
                   </div>
-                  <div class="item-info-product ">
+                  <div className="item-info-product ">
                     <h4>
                       <a href="single.html">Reversible Belt</a>
                     </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$30.99</span>
+                    <div className="info-product-price">
+                      <span className="item_price">$30.99</span>
                       <del>$50.71</del>
                     </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -1042,7 +1042,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            class="button"
+                            className="button"
                           />
                         </fieldset>
                       </form>
@@ -1050,29 +1050,29 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 product-men">
-                <div class="men-pro-item simpleCart_shelfItem">
-                  <div class="men-thumb-item">
-                    <img src={m8} alt="" class="pro-image-front" />
-                    <img src={m8} alt="" class="pro-image-back" />
-                    <div class="men-cart-pro">
-                      <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">
+              <div className="col-md-3 product-men">
+                <div className="men-pro-item simpleCart_shelfItem">
+                  <div className="men-thumb-item">
+                    <img src={m8} alt="" className="pro-image-front" />
+                    <img src={m8} alt="" className="pro-image-back" />
+                    <div className="men-cart-pro">
+                      <div className="inner-men-cart-pro">
+                        <a href="single.html" className="link-product-add-cart">
                           Quick View
                         </a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+                    <span className="product-new-top">New</span>
                   </div>
-                  <div class="item-info-product ">
+                  <div className="item-info-product ">
                     <h4>
                       <a href="single.html">Party Men's Blazer</a>
                     </h4>
-                    <div class="info-product-price">
-                      <span class="item_price">$260.99</span>
+                    <div className="info-product-price">
+                      <span className="item_price">$260.99</span>
                       <del>$390.71</del>
                     </div>
-                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+                    <div className="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
                       <form action="#" method="post">
                         <fieldset>
                           <input type="hidden" name="cmd" value="_cart" />
@@ -1100,7 +1100,7 @@ export function ClothingBody() {
                             type="submit"
                             name="submit"
                             value="Add to cart"
-                            class="button"
+                            className="button"
                           />
                         </fieldset>
                       </form>
@@ -1108,7 +1108,7 @@ export function ClothingBody() {
                   </div>
                 </div>
               </div>
-              <div class="clearfix"></div>
+              <div className="clearfix"></div>
             </div>
           </div>
         </div>
@@ -1121,46 +1121,46 @@ export function Coupon() {
   return (
     <>
       <div>
-        <div class="coupons">
-          <div class="coupons-grids text-center">
-            <div class="w3layouts_mail_grid">
-              <div class="col-md-3 w3layouts_mail_grid_left">
-                <div class="w3layouts_mail_grid_left1 hvr-radial-out">
-                  <i class="fa fa-truck" aria-hidden="true"></i>
+        <div className="coupons">
+          <div className="coupons-grids text-center">
+            <div className="w3layouts_mail_grid">
+              <div className="col-md-3 w3layouts_mail_grid_left">
+                <div className="w3layouts_mail_grid_left1 hvr-radial-out">
+                  <i className="fa fa-truck" aria-hidden="true"></i>
                 </div>
-                <div class="w3layouts_mail_grid_left2">
+                <div className="w3layouts_mail_grid_left2">
                   <h3>FREE SHIPPING</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur</p>
                 </div>
               </div>
-              <div class="col-md-3 w3layouts_mail_grid_left">
-                <div class="w3layouts_mail_grid_left1 hvr-radial-out">
-                  <i class="fa fa-headphones" aria-hidden="true"></i>
+              <div className="col-md-3 w3layouts_mail_grid_left">
+                <div className="w3layouts_mail_grid_left1 hvr-radial-out">
+                  <i className="fa fa-headphones" aria-hidden="true"></i>
                 </div>
-                <div class="w3layouts_mail_grid_left2">
+                <div className="w3layouts_mail_grid_left2">
                   <h3>24/7 SUPPORT</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur</p>
                 </div>
               </div>
-              <div class="col-md-3 w3layouts_mail_grid_left">
-                <div class="w3layouts_mail_grid_left1 hvr-radial-out">
-                  <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+              <div className="col-md-3 w3layouts_mail_grid_left">
+                <div className="w3layouts_mail_grid_left1 hvr-radial-out">
+                  <i className="fa fa-shopping-bag" aria-hidden="true"></i>
                 </div>
-                <div class="w3layouts_mail_grid_left2">
+                <div className="w3layouts_mail_grid_left2">
                   <h3>MONEY BACK GUARANTEE</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur</p>
                 </div>
               </div>
-              <div class="col-md-3 w3layouts_mail_grid_left">
-                <div class="w3layouts_mail_grid_left1 hvr-radial-out">
-                  <i class="fa fa-gift" aria-hidden="true"></i>
+              <div className="col-md-3 w3layouts_mail_grid_left">
+                <div className="w3layouts_mail_grid_left1 hvr-radial-out">
+                  <i className="fa fa-gift" aria-hidden="true"></i>
                 </div>
-                <div class="w3layouts_mail_grid_left2">
+                <div className="w3layouts_mail_grid_left2">
                   <h3>FREE GIFT COUPONS</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur</p>
                 </div>
               </div>
-              <div class="clearfix"> </div>
+              <div className="clearfix"> </div>
             </div>
           </div>
         </div>
