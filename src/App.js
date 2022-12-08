@@ -17,10 +17,7 @@ const App = () => {
       <Router>
         <GlobalStore>
           <ErrorBoundary>
-            <Navbar />
-          </ErrorBoundary>
-
-          <ErrorBoundary>
+          <Navbar />
             <Routes>
               <Route path="/" exact element={<LandingPage />} />
               <Route path="/about" element={<AboutPage />} />
