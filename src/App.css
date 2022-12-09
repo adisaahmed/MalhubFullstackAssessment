@@ -1,1 +1,37 @@
+.not_found_parent {
+    padding: 80px 0px;
+}
 
+.not_found_parent_left_parent_h1 {
+    font-size: 150px;
+    text-align: center;
+    letter-spacing: 50px;
+    margin-top: 40px;
+}
+
+.not_found_parent_right_parent_h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+.not_found_parent_right_parent_p {
+    font-size: 25px;
+    color: blueviolet;
+    margin-bottom: 50px;
+}
+
+.not_found_parent_right_parent_button {
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.not_found_parent_right_parent_button:hover {
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+}

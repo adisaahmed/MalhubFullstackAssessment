@@ -1,3 +1,4 @@
+import "./App.css";
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./css/style.css";
@@ -10,6 +11,7 @@ import AboutPage from "./components/AboutPage";
 import MenWears from "./components/MenWears";
 import WomenWears from "./components/WomenWears";
 import Contact from "./components/Contact";
+import NotFound from "./components/NotFound";
 
 const App = () => {
   return (
@@ -25,10 +27,8 @@ const App = () => {
               <Route path="/men" element={<MenWears />} />
               <Route path="/women" element={<WomenWears />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
-          </ErrorBoundary>
-
-          <ErrorBoundary>
             <Footer />
           </ErrorBoundary>
         </GlobalStore>
