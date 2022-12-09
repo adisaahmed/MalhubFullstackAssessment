@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -45,13 +46,13 @@ const Navbar = () => {
           </div>
           <div class="col-md-4 logo_agile">
             <h1>
-              <a href="index.html">
-                <span>E</span>lite Shoppy{" "}
+              <Link to="/">
+                <span>A</span>mco Shoppy{" "}
                 <i
                   class="fa fa-shopping-bag top_logo_agile_bag"
                   aria-hidden="true"
                 ></i>
-              </a>
+              </Link>
             </h1>
           </div>
           <div class="col-md-4 agileits-social top_content">
