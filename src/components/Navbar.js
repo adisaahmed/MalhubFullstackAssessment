@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import top1 from "../images/top1.jpg";
 import top2 from "../images/top2.jpg";
-import log_pic from "../images/log_pic.jpg";
 
 const Navbar = () => {
   return (
