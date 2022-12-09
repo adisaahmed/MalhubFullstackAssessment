@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
           <div className="col-md-4 logo_agile">
             <h1>
-              <Link to="index.html">
+              <Link to="/">
                 <span>A</span>mco Shoppy{" "}
                 <i
                   className="fa fa-shopping-bag top_logo_agile_bag"
