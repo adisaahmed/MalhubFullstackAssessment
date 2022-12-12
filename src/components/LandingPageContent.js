@@ -67,9 +67,9 @@ export function Banner() {
                 The Biggest <span>Sale</span>
               </h3>
               <p>Special for today</p>
-              <a className="hvr-outline-out button2" href="">
+              <Link className="hvr-outline-out button2" to="/men">
                 Shop Now{" "}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,9 +80,9 @@ export function Banner() {
                 Summer <span>Collection</span>
               </h3>
               <p>New Arrivals On Sale</p>
-              <a className="hvr-outline-out button2" href="">
+              <Link className="hvr-outline-out button2" to="/men">
                 Shop Now{" "}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -93,9 +93,9 @@ export function Banner() {
                 The Biggest <span>Sale</span>
               </h3>
               <p>Special for today</p>
-              <a className="hvr-outline-out button2" href="">
+              <Link className="hvr-outline-out button2" to="/men">
                 Shop Now{" "}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -106,9 +106,9 @@ export function Banner() {
                 Summer <span>Collection</span>
               </h3>
               <p>New Arrivals On Sale</p>
-              <a className="hvr-outline-out button2" href="">
+              <Link className="hvr-outline-out button2" to="/">
                 Shop Now{" "}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -119,9 +119,9 @@ export function Banner() {
                 The Biggest <span>Sale</span>
               </h3>
               <p>Special for today</p>
-              <a className="hvr-outline-out button2" href="">
+              <Link className="hvr-outline-out button2" to="/men">
                 Shop Now{" "}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

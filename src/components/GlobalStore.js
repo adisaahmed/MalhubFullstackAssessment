@@ -1,20 +1,22 @@
-import React, { createContext, useReducer } from "react";
+import React, { createContext, useState } from "react";
 import Reducer from "./Reducer";
 
-const initialState = {
-  trans: [],
+const initialInfo = {
+  userid: null,
+  name: null,
+  email: null,
+  password: null,
+  memtype: null
 };
 
-const GlobalContext = createContext(initialState);
+export const GlobalContext = createContext( initialInfo );
 
-const GlobalStore = ({ children }) => {
-  const [state, dispatch] = useReducer(Reducer, initialState);
+export const GlobalStore = ( children ) => {
+  const [info, setInfo] = useState( initialInfo )
 
   return (
-    <GlobalContext.Provider value={{ trans: state.trans }}>
+    <GlobalContext.Provider value={{ info }}>
       {children}
     </GlobalContext.Provider>
-  );
+  )
 };
-
-export default GlobalStore;
