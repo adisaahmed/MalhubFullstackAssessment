@@ -1,5 +1,4 @@
-import React, { createContext, useState } from "react";
-import Reducer from "./Reducer";
+import React, { createContext, useState, useEffect } from "react";
 
 const initialInfo = {
   userid: null,
@@ -11,11 +10,20 @@ const initialInfo = {
 
 export const GlobalContext = createContext( initialInfo );
 
-export const GlobalStore = ( children ) => {
+export const GlobalStore = ( { children } ) => {
   const [info, setInfo] = useState( initialInfo )
 
+  const updateInfo = (newInfo) => {
+    console.log('In Global', newInfo);
+    setInfo( newInfo )
+  }
+
+  useEffect(() => {
+    updateInfo( initialInfo )
+  }, [])
+
   return (
-    <GlobalContext.Provider value={{ info }}>
+    <GlobalContext.Provider value={{ info, updateInfo }}>
       {children}
     </GlobalContext.Provider>
   )

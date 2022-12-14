@@ -12,6 +12,9 @@ import MenWears from "./components/MenWears";
 import WomenWears from "./components/WomenWears";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
+import Login from "./components/SignIn";
+import SignUp from "./components/SignUp";
+import Logout from "./components/Logout";
 
 const App = () => {
   return (
@@ -28,6 +31,9 @@ const App = () => {
               <Route path="/women" element={<WomenWears />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<SignUp />} />
+              <Route path="/logout" element={<Logout />} />
             </Routes>
             <Footer />
           </ErrorBoundary>
